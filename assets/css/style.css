@@ -26,3 +26,47 @@ header {
     border-bottom: 1px solid #000000;
 }
 
+/* ---------------------------------------------- Footer */
+
+.footer {
+    text-align: center;
+    background-color: #cecece;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer-top {
+    margin-top: 15px;
+}
+
+.footer-bottom {
+    margin-top: 5px;
+}
+
+hr {
+    width: 135px;
+}
+
+.social-links li a i {
+    font-size: 30px;
+    color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #000000;
+}
+
+.footer-icon {
+    margin-left: 60px;
+}
+
+.copyright {
+    font-size: 10px;
+}
