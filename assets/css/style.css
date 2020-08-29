@@ -8,7 +8,27 @@ header {
     margin: 0;
 }
 
+.row {
+    margin: 0;
+}
+
 /* ---------------------------------------------- Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+}
 
 .main-nav {
     font-family: inherit;
@@ -18,12 +38,38 @@ header {
     letter-spacing: 2px;
 }
 
-.logo {
+.nav-link {
+    color: #000;
+}
+
+.nav-item.active a {
+    color: #01A1B1;
+    border-bottom: 1px solid #01A1B1;
+}
+
+.main-nav {
+    font-family: inherit;
     font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #000000;
+    color: #01A1B1;
+}
+
+/* ---------------------------------------------- Home Page */
+
+.jumbotron {
+    background-color: transparent; 
+}
+
+.jumbotron-container {
+    background: url("../images/Cornwall4.jpg") no-repeat center center fixed;
+    height: 90vh;
+    background-size: cover;
+    opacity: 0.7;
 }
 
 /* ---------------------------------------------- Footer */
@@ -36,6 +82,8 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .footer-top {
