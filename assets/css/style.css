@@ -76,7 +76,7 @@ header {
 
 .footer {
     text-align: center;
-    background-color: #cecece;
+    background-color: #f8e5d0;
     font-family: inherit;
     font-size: 25px;
     font-weight: 400;
@@ -100,7 +100,7 @@ hr {
 
 .social-links li a i {
     font-size: 30px;
-    color: #ffffff;
+    color: #000;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -108,7 +108,7 @@ hr {
 }
 
 .social-links li a i:hover {
-    color: #000000;
+    color: #01A1B1;
 }
 
 .footer-icon {
