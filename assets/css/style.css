@@ -82,7 +82,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -92,8 +92,25 @@ p {
 
 .home-images {
     max-width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
+
+.vid-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-bottom: 40px;
+}
+
+.vid-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 /* ---------------------------------------------- Footer */
 
 .footer {
@@ -135,8 +152,4 @@ hr {
 
 .footer-icon {
     margin-left: 60px;
-}
-
-.copyright {
-    font-size: 10px;
 }
