@@ -9,13 +9,11 @@ header {
     margin: 0;
 }
 
-.row {
+/* .row {
     margin: 0;
-}
+} */
 
-p {
-    font-family: 'Raleway', sans-serif;
-}
+p {}
 
 /* ---------------------------------------------- Navbar */
 
@@ -66,7 +64,7 @@ p {
 
 /* ---------------------------------------------- Home Page */
 .hero-img-1 {
-    width: 100%;
+    /* width: 100%; */
     height: 90vh;
     background: url("../images/cornwall-1.jpg") center no-repeat;
     background-size: cover;
@@ -89,7 +87,7 @@ p {
     margin-top: 30px;
 } */
 
-.jumbotron {
+/* .jumbotron {
     background-color: transparent; 
 }
 
@@ -98,7 +96,7 @@ p {
     height: 90vh;
     background-size: cover;
     opacity: 0.7;
-}
+} */
 
 .index-head {
     text-decoration: underline;
@@ -106,12 +104,14 @@ p {
     font-weight: 300;
     letter-spacing: 2px;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.history-container {
-    text-align: center;
+.index-para {
+    font-family: 'Raleway', sans-serif;
 }
+
+.history-container {}
 
 .home-images {
     max-width: 100%;
@@ -139,33 +139,33 @@ p {
     opacity: 0.7;
 }
 
-/* .jumbotron-container-2 {
-    background: url("../images/cornwall-2.jpg") no-repeat center center fixed;
-    height: 90vh;
-    background-size: cover;
-    opacity: 0.7;
-} */
-
-/* .entire-headline {
-    text-align: center;
-    margin-top: 30px;
-} */
-
 .exp-head {
     text-decoration: underline;
-    font-family: 'Lato', sans-serif;
+    font-family: inherit;
     font-weight: 300;
     letter-spacing: 2px;
-    text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .exp-para {
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
-    margin: 30px;
-    text-align: center;
+    
 }
 
+.choice-cards {
+    margin-top: 60px;
+}
+
+/*.img-text {
+    position: absolute;
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #000;
+} */
 /* .img-choice {
     display: block;
     margin-left: auto;
@@ -194,9 +194,9 @@ p {
     margin-top: 5px;
 }
 
-hr {
+/* hr {
     width: 135px;
-}
+} */
 
 .social-links li a i {
     font-size: 30px;
