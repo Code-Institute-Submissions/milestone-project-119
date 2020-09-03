@@ -158,6 +158,35 @@ p {}
     margin-top: 60px;
 }
 
+.card-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70%;
+    margin-bottom: 75px;
+    border: 1px black solid;
+    /* opacity: 0.8; */
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.image-text:hover {
+    color: #01A1B1;
+}
+
 /*.img-text {
     position: absolute;
     color: #fff;
@@ -178,7 +207,7 @@ p {}
     text-align: center;
     background-color: #f8e5d0;
     font-family: inherit;
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -214,3 +243,6 @@ p {}
 .footer-icon {
     margin-left: 60px;
 }
+
+
+
