@@ -47,27 +47,38 @@
     <!-- Contact Callout-->
     <section class="hero-img-3">
     </section>
+    <!-- Contact Header-->
+    <section class="container">
+        <div class="row">
+        <div class="col">
+            <h1 class="page-head text-center">Contact</h1>
+            <p class="text-center">Is there something more you want to know?<br>Send us a message and our team will get back to you soon</p>
+        </div>
+    </div>
     <!-- Contact Form-->
-    <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <form class="form-style text-center">
+        <div class="form-group">
+            <label for="Name" class="form-labels" >Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name" required> <!--form-control-lg ????-->     
+        </div>
+
+        <div class="form-group">
+            <label for="InputEmail" class="form-labels" >Email Address</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="email@example.com" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+  
+        <div class="form-group">
+            <label for="Message" class="form-labels">What would you like to know?</label>
+                <textarea class="form-control" id="Message" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg outline-dark button-colour">Submit</button>
+    </form>
+</section>
     
     
-    <footer>
      <!-- Footer -->
+     <footer>
         <div class="row footer">
         <div class="col-12">
             <h6 class="footer-top">Follow us</h6>
