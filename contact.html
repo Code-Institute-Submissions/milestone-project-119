@@ -13,6 +13,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- style.css -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- Emailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_Bvbm80Bth2ddn5WaU62qU");
+        })();
+    </script>
 </head>
 <body>
     <header>
@@ -56,21 +63,21 @@
         </div>
     </div>
     <!-- Contact Form-->
-    <form class="form-style text-center">
+    <form onsubmit="return sendMail(this);" class="form-style text-center">
         <div class="form-group">
-            <label for="Name" class="form-labels" >Name</label>
-                <input type="text" class="form-control" id="Name" placeholder="Name" required> <!--form-control-lg ????-->     
+            <label for="name" class="form-labels" >Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required> <!--form-control-lg ????-->     
         </div>
 
         <div class="form-group">
-            <label for="InputEmail" class="form-labels" >Email Address</label>
-                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="email@example.com" required>
+            <label for="emailaddress" class="form-labels" >Email Address</label>
+                <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="email@example.com" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
   
         <div class="form-group">
-            <label for="Message" class="form-labels">What would you like to know?</label>
-                <textarea class="form-control" id="Message" placeholder="Message" required></textarea>
+            <label for="message" class="form-labels">What would you like to know?</label>
+                <textarea class="form-control" id="message" placeholder="Message" required></textarea>
         </div>
         <button type="submit" class="btn btn-lg outline-dark button-colour">Submit</button>
     </form>
@@ -116,6 +123,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- Internal script files -->
-
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
