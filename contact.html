@@ -22,6 +22,7 @@
     </script>
 </head>
 <body>
+<button onclick="topFunction()" id="to-top-btn" title="Go to top">Top</button>
     <header>
     <!-- Navbar-->
     <div class="container-fluid navalert-container">
@@ -63,10 +64,10 @@
         </div>
     </div>
     <!-- Contact Form-->
-    <form onsubmit="return sendMail(this);" class="form-style text-center">
+    <form onsubmit="sendMail(this);" action="contact.html" class="form-style text-center">
         <div class="form-group">
             <label for="name" class="form-labels" >Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Name" required> <!--form-control-lg ????-->     
+                <input type="text" class="form-control" id="name" placeholder="Name" required>   
         </div>
 
         <div class="form-group">
@@ -123,6 +124,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- Internal script files -->
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>
