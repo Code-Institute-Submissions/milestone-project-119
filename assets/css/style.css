@@ -50,15 +50,7 @@ p {}
 
 .nav-item.active a {
     color: #01A1B1;
-    border-bottom: 1px solid #01A1B1;
-}
-
-.main-nav {
-    font-family: inherit;
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    
 }
 
 #menu a:hover {
@@ -69,6 +61,13 @@ p {}
     color: #000;
     font-size: 28px;
 }
+
+.navbar.navbar-on-scroll {
+    background-color: #fff;
+    border:0px; 
+    transition: background-color .5s ease 0s;
+}
+
 
 /* .navbar-toggler{
     width: 47px;
@@ -173,8 +172,6 @@ p {
 .vid-container {
     margin-bottom: 40px;
     margin-top: 2rem;
-    height: 70%;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -341,6 +338,26 @@ p {
     }
 }
 
+@media only screen and (min-width:1082px) and (max-width:1099px) {
+    .image-text {
+        font-size: 1.8rem;
+    }
+
+    .extra-centered {
+        top: 44%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:730px) {
+    .image-text {
+        font-size: 1.5rem;
+    }
+
+    .extra-centered {
+        top: 37%;
+    }
+}
+
 @media only screen and (max-width:410px) {
     .logo {
         width: 75%;
@@ -351,6 +368,32 @@ p {
     }
 }
 
+@media only screen and (min-width:361px) and (max-width:375px) {
+    .image-text {
+        font-size: 1.8rem;
+    }
+
+    .extra-centered {
+        top: 38%;
+    }
+}
+
+@media only screen and (min-width: 352px) and (max-width:376px) {
+    .social-links li a i {
+        font-size: 26px;
+    }
+
+    .footer-icon {
+        margin-left: 55px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    h1 {
+        font-size: 2.2em;
+    }
+}
+
 @media only screen and (min-width:321px) and (max-width:360px) {
     .image-text {
         font-size: 1.8rem;
@@ -358,6 +401,16 @@ p {
 
     .extra-centered {
         top: 37%;
+    }
+}
+
+@media only screen and (max-width:351px) {
+    .social-links li a i {
+        font-size: 26px;
+    }
+
+    .footer-icon {
+        margin-left: 45px;
     }
 }
 
@@ -378,62 +431,6 @@ p {
 
     .extra-centered {
         top: 36%;
-    }
-}
-
-@media only screen and (min-width:1082px) and (max-width:1099px) {
-    .image-text {
-        font-size: 1.8rem;
-    }
-
-    .extra-centered {
-        top: 44%;
-    }
-}
-
-@media only screen and (min-width:361px) and (max-width:375px) {
-    .image-text {
-        font-size: 1.8rem;
-    }
-
-    .extra-centered {
-        top: 38%;
-    }
-}
-
-@media only screen and (min-width:576px) and (max-width:730px) {
-    .image-text {
-        font-size: 1.5rem;
-    }
-
-    .extra-centered {
-        top: 37%;
-    }
-}
-
-@media only screen and (min-width: 352px) and (max-width:376px) {
-    .social-links li a i {
-        font-size: 26px;
-    }
-
-    .footer-icon {
-        margin-left: 55px;
-    }
-}
-
-@media only screen and (max-width:360px) {
-    h1 {
-        font-size: 2.2em;
-    }
-}
-
-@media only screen and (max-width:351px) {
-    .social-links li a i {
-        font-size: 26px;
-    }
-
-    .footer-icon {
-        margin-left: 45px;
     }
 }
     
