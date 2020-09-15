@@ -103,11 +103,8 @@ p {}
   font-size: 50px; /* Increase font size */
 }
 
-
-
-
 #to-top-btn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #61999e; /* Add a dark-grey background on hover */
 }
 
 /* ---------------------------------------------- Home Page, Experience Page, Contact Page */
@@ -190,45 +187,72 @@ p {
     opacity: 0.7;
 }
 
-.choice-cards {
-    margin-top: 60px;
+.grouped-btns {
+    text-align: center;
+    word-spacing: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
-.card-image {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 70%;
-    margin-bottom: 75px;
-    border: 1px black solid;
-    filter: brightness(80%);
-    /* opacity: 0.8; */
-}
-
-.centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.image-text {
-    font-size: 2rem;
-    font-weight: 400;
+.exp-btns {
+    background-color: #01A1B1;
+    border: 1px solid #000;
     color: #fff;
-    text-shadow: 3px 3px 3px #000;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    height: 40px;
+    width: 180px;
 }
 
-.image-text:hover {
+.exp-btns:hover {
+    background-color: #61999e;
     color: #fff;
-    text-shadow: 3px 3px 3px#01A1B1;
+    border: 1px solid #dfe8f1;
+}
+
+.exp-btn-icon {
+    margin-right: 10px;
 }
 
 #map {
     height: 600px;
     width: 100%;
 }
+
+/* .choice-cards {
+    margin-top: 60px;
+} */
+
+/* .card-image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70%;
+    margin-bottom: 75px;
+    border: 1px black solid;
+    filter: brightness(80%);
+    /* opacity: 0.8; 
+} */
+
+/* .centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* .image-text {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+} */
+
+/* .image-text:hover {
+    color: #fff;
+    text-shadow: 3px 3px 3px#01A1B1;
+} */
+
+
 
 /*.img-text {
     position: absolute;
@@ -272,21 +296,21 @@ p {
     margin-top: 1rem;
 }
 
-.btn {
+.sub-btn {
     margin-top: 1rem;
 }
 
 .button-colour {
     background-color: #01A1B1;
     border: 1px solid #000;
-    color: #DFE8F1;
+    color: #fff;
 }
 
 .button-colour:hover {
     background-color: #61999e;
     color: #fff;
+    border: 1px solid #dfe8f1;
 }
-
 
 .modal-head {
     font-family: inherit;
@@ -365,6 +389,14 @@ p {
 
     .extra-centered {
         top: 37%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    #to-top-btn {
+        font-size: 36px;
+        bottom: 110px;
+        right: 15px;
     }
 }
 
