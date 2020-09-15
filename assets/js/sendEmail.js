@@ -1,3 +1,5 @@
+// Send form details to email account
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "cornwall", {
         "from_name": contactForm.name.value,
@@ -13,4 +15,11 @@ function sendMail(contactForm) {
         }
     );
     return false;
-}
+};
+
+// Modal pop up when form submitted
+
+$('#myForm').on('submit', function(e){
+  $('#myModal').modal('show');
+  e.preventDefault();
+});

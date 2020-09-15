@@ -26,7 +26,7 @@
     <header>
     <!-- Navbar-->
     <div class="container-fluid navalert-container">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-on-scroll">
+    <nav class="navbar opaque-navbar navbar-expand-lg fixed-top navbar-on-scroll">
   <a class="navbar-brand logo" href="index.html">
   <img class="logo-image" src="assets/images/logo.png" alt="Experience Cornwall Logo"/>
   </a>
@@ -63,8 +63,10 @@
             <p class="text-center">Is there something more you want to know?<br>Send us a message and our team will get back to you soon</p>
         </div>
     </div>
+
+
     <!-- Contact Form-->
-    <form onsubmit="sendMail(this);" action="contact.html" class="form-style text-center">
+    <form onsubmit="return sendMail(this); openModal()" action="contact.html" class="form-style text-center" id="myForm">
         <div class="form-group">
             <label for="name" class="form-labels" >Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Name" required>   
@@ -78,12 +80,28 @@
   
         <div class="form-group">
             <label for="message" class="form-labels">What would you like to know?</label>
-                <textarea class="form-control" id="message" placeholder="Message" required></textarea>
+                <textarea class="form-control" id="message" placeholder="Message" rows="10" required></textarea>
         </div>
         <button type="submit" class="btn btn-lg outline-dark button-colour">Submit</button>
     </form>
 </section>
-    
+   <!-- Thank you Modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      <h4 class="modal-title text-center modal-head">Thank you</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body text-center modal-content">
+        <p>We look forward to helping you with your query and we'll be in touch very soon. Please check your email for confirmation.<br>Dreckly</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     
      <!-- Footer -->
      <footer>
