@@ -17,7 +17,7 @@
 <body>
 <button onclick="topFunction()" id="to-top-btn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     <header>
-    <!-- Navbar-->
+    <!-- Navbar -->
     <div class="container-fluid navalert-container">
     <nav class="navbar opaque-navbar navbar-expand-lg fixed-top navbar-on-scroll">
   <a class="navbar-brand logo" href="index.html">
@@ -45,10 +45,10 @@
 </div>
     </header>
 
-    <!-- Experiences Callout-->
+    <!-- Experiences Callout -->
     <section class="hero-img-2">
     </section>
-    <!-- Experiences Header-->
+    <!-- Experiences Header -->
     <section class="container-fluid">
     <div class="row">
         <div class="col">
@@ -56,15 +56,58 @@
             <p class="text-center">Cornwall has so much to offer, you will be able to find someething to suit you.<br>Click on the tabs below to interact with the map, and show you locations and information</p>
         </div>
     </div>
-    <!-- Experiences Cards-->
-            <div class="grouped-btns">
+    <!-- Experiences Buttons -->
+            <div class="row grouped-btns">
+            <div class="col-sm-6 col-md-4 col-xl-2">
             <button type="button" class="btn exp-btns" id="beaches"><i class="fas fa-umbrella-beach exp-btn-icon"></i>Beaches</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
             <button type="button" class="btn exp-btns" id="activities"><i class="fas fa-hiking exp-btn-icon"></i>Activities</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
             <button type="button" class="btn exp-btns" id="restaurants"><i class="fas fa-utensils exp-btn-icon"></i>Restaurants</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
             <button type="button" class="btn exp-btns" id="nature"><i class="fab fa-envira exp-btn-icon"></i>Nature & Gardens</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
             <button type="button" class="btn exp-btns" id="hotels"><i class="fas fa-hotel exp-btn-icon"></i>Hotels</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+            <button type="button" class="btn exp-btns" id="arts"><i class="fas fa-theater-masks exp-btn-icon"></i>Arts & Heritage</button>
+            </div>
+            </div>
+
+    <!--<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <div class="row grouped-btns">
+            <div class="col-sm-6 col-md-4 col-xl-2">
+            <button type="button" class="btn exp-btns" id="beaches"><i class="fas fa-umbrella-beach exp-btn-icon"></i>Beaches</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+            <button type="button" class="btn exp-btns" id="activities"><i class="fas fa-hiking exp-btn-icon"></i>Activities</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+            <button type="button" class="btn exp-btns" id="restaurants"><i class="fas fa-utensils exp-btn-icon"></i>Restaurants</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+            <button type="button" class="btn exp-btns" id="nature"><i class="fab fa-envira exp-btn-icon"></i>Nature & Gardens</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
+            <button type="button" class="btn exp-btns" id="hotels"><i class="fas fa-hotel exp-btn-icon"></i>Hotels</button>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-2">
             <button type="button" class="btn exp-btns" id="culture"><i class="fas fa-theater-masks exp-btn-icon"></i>Arts & Culture</button>
             </div>
+            </div>
+  </div>
+</div> -->
+
+
+            <!-- Map -->
                 <div id="map"></div>
     </section>
     <!-- Footer -->
@@ -101,7 +144,9 @@
         </div>
         </div>
     </footer>
-
+    <!-- Internal script files -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/maps.js"></script>
     <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
     <!--<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>-->
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKlfiL0dhbfa42MHAjL7jaQAnVLMDqeCg&callback=initMap&libraries=places"></script>
@@ -111,6 +156,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- Internal script files -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/maps.js"></script>
+    
 </body>
 </html>
