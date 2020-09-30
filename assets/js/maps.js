@@ -1,5 +1,6 @@
  // 
 let map;
+
 // You can create the different set of locations here outside the initMap()
 // Like:
 let beachLocations = [
@@ -25,7 +26,7 @@ let artsLocations = [
             { lat:50.1175726, lng:-5.4800369}, // St Michael's Mount
             { lat:50.2148385, lng:-5.4846445}, // Tate St Ives
             { lat:50.2133028, lng:-5.4832626}, // Barbara Hepworth Museum
-            { lat:50.1517431, lng:--5.6784109}, // Geevor Tin Mine
+            { lat:50.1517431, lng:-5.6784109}, // Geevor Tin Mine
             { lat:50.4748864, lng:-4.7307867}, // Bodmin Jail
             { lat:50.3226815, lng:-5.2027042}, // St Agnes Heritage Coast
             { lat:50.1556299, lng:-5.0746233}, // Falmouth Art Gallery
@@ -123,22 +124,12 @@ let activityLocations = [
 
         let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        }
+        };
         
-    // here can insert a function that is being called by the button click
-    // that is passing n the appropriate set of locations
+
+        // function that is being called by the button click
+        // that is passing n the appropriate set of locations
     function placeMarkers(selectedLocations) {
-        // Event listeners added for the buttons different options
-
-        document.getElementById("beaches").addEventListener("click", Beaches);
-        document.getElementById("activities").addEventListener("click", Acivities);
-        document.getElementById("restaurants").addEventListener("click", Restaurants);
-        document.getElementById("nature").addEventListener("click", Nature);
-        document.getElementById("hotels").addEventListener("click", Hotels);
-        document.getElementById("arts").addEventListener("click", Arts);
-        
-
-        
         
         // iterate through the array of locations and place the markers on the map
         for (var i = 0; i < selectedLocations.length; i++) {
@@ -148,11 +139,52 @@ let activityLocations = [
           });
         };
 
-        let markerCluster = new MarkerClusterer(map, beachMarkers, artsMarkers,
+
+        
+
+        let markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
         };
+
+        // function setMapOnAll(map) {
+        //     for (let i = 0; i < activityLocations.length; i++) {
+        //         activityLocations[i].setMap(map);
+        //     }
+        // }
     
+
+        // Event listeners for button options
+
+        document.querySelector("#beaches").addEventListener("click", () => {
+            
+            placeMarkers(beachLocations);
+        })
+        document.querySelector("#activities").addEventListener("click", () => {
+            
+            placeMarkers(activityLocations);
+        })
+        document.querySelector("#restaurants").addEventListener("click", () => {
+            
+            placeMarkers(restaurantLocations);
+        })
+        document.querySelector("#nature").addEventListener("click", () => {
+            initMap();
+            placeMarkers(natureLocations);
+        })
+        document.querySelector("#hotels").addEventListener("click", () => {
+            initMap();
+            placeMarkers(hotelLocations);
+        })
+        document.querySelector("#arts").addEventListener("click", () => {
+            initMap();
+            placeMarkers(artsLocations);
+        })
+
+       
+
+
+        
 
     /* let beachLocations = [
             { lat: 49.9746732, lng: -5.2402168},
@@ -166,19 +198,3 @@ let activityLocations = [
                 label: labels[i % labels.length]
             });
         }); */
-
-      
-
-
-        
-
-        
-
-        /* // Event listeners added for the buttons different options
-
-        document.getElementById("beaches").addEventListener("click", Beaches);
-        document.getElementById("activities").addEventListener("click", Acivities);
-        document.getElementById("restaurants").addEventListener("click", Restaurants);
-        document.getElementById("nature").addEventListener("click", Nature);
-        document.getElementById("hotels").addEventListener("click", Hotels);
-        document.getElementById("culture").addEventListener("click", Culture); */
