@@ -1,8 +1,7 @@
- // 
-let map;
+let map, infoWindow;
 
-// You can create the different set of locations here outside the initMap()
-// Like:
+// Different set of locations
+
 let beachLocations = [
             { lat:50.4164145, lng:-5.1100574 }, // Fistral Beach
             { lat:50.3608112, lng:-5.1707412 }, // Perranporth Beach
@@ -115,6 +114,7 @@ let activityLocations = [
             { lat:50.3829806, lng:-5.0117826} // Dairyland Farm Park
 ];
 
+// Initialise map
  function initMap() {
      let myLatlng = { lat: 50.4211456, lng: -4.9904922 };
             map = new google.maps.Map(document.getElementById("map"), {
@@ -127,25 +127,29 @@ let activityLocations = [
         };
         
 
-        // function that is being called by the button click
-        // that is passing n the appropriate set of locations
+// function that is being called by the button click
+// that is passing in the appropriate set of locations
     function placeMarkers(selectedLocations) {
-        
-        // iterate through the array of locations and place the markers on the map
-        for (var i = 0; i < selectedLocations.length; i++) {
-          var marker = new google.maps.Marker({
+    
+// iterate through the array of locations and place the markers on the map
+        for (let i = 0; i < selectedLocations.length; i++) {
+          let marker = new google.maps.Marker({
             position: selectedLocations[i],
-            map: map
+            map: map,
+            animation: google.maps.Animation.DROP,
           });
         };
 
-
-        
-
-        let markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-
+        /* let markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); */
         };
+
+        // tried this with removeMarkers() in the event listener - still doesnt work
+        /* function removeMarkers(){
+            for(i=0; i<emptyArray.length; i++){
+                emptyArray[i].setMap(null);
+            }
+        } */
 
         // function setMapOnAll(map) {
         //     for (let i = 0; i < activityLocations.length; i++) {
@@ -154,29 +158,29 @@ let activityLocations = [
         // }
     
 
-        // Event listeners for button options
+// Event listeners for button options
 
-        document.querySelector("#beaches").addEventListener("click", () => {
-            
+        document.getElementById("beaches").addEventListener("click", () => {
+            initMap();
             placeMarkers(beachLocations);
         })
-        document.querySelector("#activities").addEventListener("click", () => {
-            
+        document.getElementById("activities").addEventListener("click", () => {
+            initMap();
             placeMarkers(activityLocations);
         })
-        document.querySelector("#restaurants").addEventListener("click", () => {
-            
+        document.getElementById("restaurants").addEventListener("click", () => {
+            initMap();
             placeMarkers(restaurantLocations);
         })
-        document.querySelector("#nature").addEventListener("click", () => {
+        document.getElementById("nature").addEventListener("click", () => {
             initMap();
             placeMarkers(natureLocations);
         })
-        document.querySelector("#hotels").addEventListener("click", () => {
+        document.getElementById("hotels").addEventListener("click", () => {
             initMap();
             placeMarkers(hotelLocations);
         })
-        document.querySelector("#arts").addEventListener("click", () => {
+        document.getElementById("arts").addEventListener("click", () => {
             initMap();
             placeMarkers(artsLocations);
         })
