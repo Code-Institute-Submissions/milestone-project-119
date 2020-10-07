@@ -1,23 +1,28 @@
-let map, infoWindow;
+let map;
 
 // Different set of locations
 
 let beachLocations = [
-            { lat:50.4164145, lng:-5.1100574 }, // Fistral Beach
-            { lat:50.3608112, lng:-5.1707412 }, // Perranporth Beach
-            { lat:49.9732734, lng:-5.2337851 }, // Kynance Cove
-            { lat:50.1988973, lng:-5.4660308 }, // Carbis Bay Beach  
-            { lat:50.3908849, lng:-5.1483663 }, // Holywell Bay Beach
-            { lat:50.0429263, lng:-5.6527166}, // Porthcurno Beach
-            { lat:50.0535378, lng:-5.6944491}, // Nanjizal Beach
-            { lat:50.1440767, lng:-5.0686287}, // Gyllyngvase Beach
-            { lat:50.3233711, lng:-4.7681669}, // Porthpean Beach
-            { lat:50.8603023,lng:-4.5586691}, // Sandymouth Bay Beach
-            { lat:50.2833461, lng:-4.7920881} // Pentewan Beach
-        ];
+            {lat:50.4165, lng:-5.1002 }, // Fistral Beach
+            {lat:50.3483394, lng:-5.157094 }, // Perranporth Beach
+            {lat:49.9732734, lng:-5.2337851 }, // Kynance Cove
+            {lat:50.1988973, lng:-5.4660308 }, // Carbis Bay Beach  
+            {lat:50.3908849, lng:-5.1483663 }, // Holywell Bay Beach
+            {lat:50.0429263, lng:-5.6527166 }, // Porthcurno Beach
+            {lat:50.0535378, lng:-5.6944491}, // Nanjizal Beach
+            {lat:50.1440767, lng:-5.0686287}, // Gyllyngvase Beach
+            {lat:50.3233711, lng:-4.7681669}, // Porthpean Beach
+            {lat:50.8603023,lng:-4.5586691}, // Sandymouth Bay Beach
+            {lat:50.2833461, lng:-4.7920881}, // Pentewan Beach
+            {lat:50.6447762, lng:-4.7626325}, // Trebarwith Beach
+            {lat:50.6683152, lng:-4.7614876}, // Tintagel Haven
+            {lat:50.5629593, lng:-4.9567596}, // Butterhole Beach
+            {lat:50.3528852, lng:-4.273459}, // Tregantle Beach
+            {lat:50.3305601, lng:-4.5187893} // Polperro Beach
+    ];
 
-let artsLocations = [
-            { lat:50.0413674, lng:-5.6531434}, // Minack Theatre
+    let artsLocations = [
+            {lat:50.0413674, lng:-5.6531434}, // Minack Theatre
             { lat:50.2641193, lng:-5.0534362}, // Truro Cathedral
             { lat:50.1461128, lng:-5.0488191}, // Pendennis Castle
             { lat:50.6672847, lng:-4.760694}, // Tintagel Castle
@@ -30,10 +35,11 @@ let artsLocations = [
             { lat:50.3226815, lng:-5.2027042}, // St Agnes Heritage Coast
             { lat:50.1556299, lng:-5.0746233}, // Falmouth Art Gallery
             { lat:50.2393609, lng:-4.8488722}, // Caerhays Castle
-            { lat:50.386793, lng:-5.0410428} // Trerice Manor
-        ];
+            { lat:50.386793, lng:-5.0410428}, // Trerice Manor
+            { lat:50.2626163, lng:-5.0528392} // Hall for Cornwall
+    ];
 
-let hotelLocations = [
+    let hotelLocations = [
             { lat:50.4446539, lng:-5.0434669}, // Watergate Bay Hotel
             { lat:50.3359557, lng:-4.6362102}, // The Old Quay House Hotel
             { lat:50.0846744, lng:-5.5394537}, // The Old Coastguard Hotel
@@ -53,9 +59,9 @@ let hotelLocations = [
             { lat:50.2662784, lng:-5.0461957}, // The Alverton Hotel
             { lat:50.1982306, lng:-5.4687445}, // Carbis Bay Hotel
             { lat:50.1236677, lng:-5.4755258} // Marizion Hotel
-];
+    ];
 
-let restaurantLocations = [
+    let restaurantLocations = [
             { lat:50.5401069, lng:-4.938946}, // The Seafood Restaurant
             { lat:50.6635645, lng:-4.753678}, // King Arthurs Arms Inn
             { lat:50.4117706, lng:-5.1210257}, // Lewinnick Lodge
@@ -70,10 +76,17 @@ let restaurantLocations = [
             { lat:50.1826145, lng:-5.5955026}, // The Gunards Head
             { lat:50.3351513, lng:-4.6368258}, // Food For Thought
             { lat:50.2293495, lng:-5.3889681}, // The Rockpool
-            { lat:50.592717, lng:-4.8244471} // Port Gaverne Inn
-];
+            { lat:50.592717, lng:-4.8244471}, // Port Gaverne Inn
+            { lat:50.2627936, lng:-5.0535122}, // Manning's Bar and Restaurant
+            { lat:50.2378956, lng:-5.2489994}, // Tricky's
+            { lat:50.1516177, lng:-5.0728573}, // Cribbs Cornwall
+            { lat:50.1234351, lng:-5.4766158}, // The Godolphin
+            { lat:50.1010554, lng:-5.2768267}, // Henley's Bar and Restaurant
+            { lat:49.9679807, lng:-5.2055365}, // The Witchball
+            { lat:50.0657729, lng:-5.7167688} // The Land's End Restaurant and Bar
+    ];
 
-let natureLocations = [
+    let natureLocations = [
             { lat:50.285367, lng:-4.8133752}, // Lost Gardens of Heligan
             { lat:50.1067235, lng:-5.1239471}, // Trebah Gardens
             { lat:50.4767156, lng:-4.784576}, // Camel Valley Vineyard
@@ -91,9 +104,9 @@ let natureLocations = [
             { lat:50.2913108, lng:-5.0618025}, // Idless Woods
             { lat:50.4903549, lng:-4.5075518}, // Golitha Falls
             { lat:50.5548086, lng:-4.6178319} // Bodmin Moore
-];
+    ];
 
-let activityLocations = [
+    let activityLocations = [
             { lat:50.385356, lng:-5.0080304}, // Newquay Paintball
             { lat:50.5184814, lng:-4.8407397}, // Camel Trail Cycle Hire
             { lat:50.5984694, lng:-4.7351817}, // Big Dunk's Outdoor Lazer Tag
@@ -111,38 +124,107 @@ let activityLocations = [
             { lat:50.1461954, lng:-5.5181397}, // Tremenheere Riding Stables
             { lat:50.2092802, lng:-5.479281}, // St Ives Watersports
             { lat:50.3750794, lng:-5.0437649}, // Lappa Vallet Steam Railway
-            { lat:50.3829806, lng:-5.0117826} // Dairyland Farm Park
-];
+            { lat:50.3829806, lng:-5.0117826}, // Dairyland Farm Park
+            { lat:50.3472852,lng:-4.7535074}, // Cornwall Football Golf
+            { lat:50.2661006, lng:-5.0552758} // Truro Bowl
+            
+    ];
+
+
 
 // Initialise map
- function initMap() {
-     let myLatlng = { lat: 50.4211456, lng: -4.9904922 };
-            map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 9,
-                center: myLatlng
-            });
 
-        let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+function initMap(selectedLocations) {
 
-        };
-        
-
-// function that is being called by the button click
-// that is passing in the appropriate set of locations
-    function placeMarkers(selectedLocations) {
     
+   /*  // For testing, let's set selectedLocations
+    let selectedLocations = [
+        { lat:50.4446539, lng:-5.0434669},
+        { lat:50.4151414, lng:-5.0890206},
+    ] */
+    let myLatlng = { lat: 50.4211456, lng: -4.9904922 };
+        map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 9,
+            center: myLatlng
+        });
+
+    let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// function called by button click that is passing in the appropriate set of locations
+
+// function placeMarkers(selectedLocations) { - NO NEED FOR FUNCTION HERE
+        
 // iterate through the array of locations and place the markers on the map
-        for (let i = 0; i < selectedLocations.length; i++) {
-          let marker = new google.maps.Marker({
+
+    for (let i = 0; i < selectedLocations.length; i++) {
+        let marker = new google.maps.Marker({
             position: selectedLocations[i],
             map: map,
             animation: google.maps.Animation.DROP,
-          });
-        };
+        });
+    
+        let contentString = "test";
+        const infowindow = new google.maps.InfoWindow({
+            content: contentString,
+        });
+    
+        marker.addListener("click", () => {
+            infowindow.open(map, marker);
+        });
+    
+    };
+        
+// }; this belonged to placeMarkers()
 
-        /* let markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); */
-        };
+// Add Info Window
+    
+
+
+
+//  function infoWindow(selectedLocations) {- NO NEED FOR FUNCTION HERE
+
+                // simplify first
+                // if(selectedLocations.content){
+                //         let infoWindow = new google.maps.infoWindow({
+                //             content: selectedLocations.content
+                //         });
+
+                //         // Listener for markers
+
+                //     marker.addListener("click", () => {
+                //         infoWindow.open(beachLocations);
+                //     });
+// }
+        
+ };
+ 
+
+
+// Event listeners for button options
+
+        document.getElementById("beaches").addEventListener("click", () => {
+            initMap(beachLocations);
+        })
+        document.getElementById("activities").addEventListener("click", () => {
+            initMap(activityLocations);
+        })
+        document.getElementById("restaurants").addEventListener("click", () => {
+            initMap(restaurantLocations);
+        })
+        document.getElementById("nature").addEventListener("click", () => {
+            initMap(natureLocations);
+        })
+        document.getElementById("hotels").addEventListener("click", () => {
+            initMap(hotelLocations);
+        })
+        document.getElementById("arts").addEventListener("click", () => {
+            initMap(artsLocations);
+        });
+
+        
+
+// };
+
 
         // tried this with removeMarkers() in the event listener - still doesnt work
         /* function removeMarkers(){
@@ -151,54 +233,14 @@ let activityLocations = [
             }
         } */
 
+
         // function setMapOnAll(map) {
         //     for (let i = 0; i < activityLocations.length; i++) {
         //         activityLocations[i].setMap(map);
         //     }
         // }
-    
-
-// Event listeners for button options
-
-        document.getElementById("beaches").addEventListener("click", () => {
-            initMap();
-            placeMarkers(beachLocations);
-        })
-        document.getElementById("activities").addEventListener("click", () => {
-            initMap();
-            placeMarkers(activityLocations);
-        })
-        document.getElementById("restaurants").addEventListener("click", () => {
-            initMap();
-            placeMarkers(restaurantLocations);
-        })
-        document.getElementById("nature").addEventListener("click", () => {
-            initMap();
-            placeMarkers(natureLocations);
-        })
-        document.getElementById("hotels").addEventListener("click", () => {
-            initMap();
-            placeMarkers(hotelLocations);
-        })
-        document.getElementById("arts").addEventListener("click", () => {
-            initMap();
-            placeMarkers(artsLocations);
-        })
-
-       
-
 
         
 
-    /* let beachLocations = [
-            { lat: 49.9746732, lng: -5.2402168},
-            { lat : 50.4164145, lng: -5.1100574},
-            { lat: 50.0429246, lng: -5.6516222}
-        ];
-
-        let beachMarkers = beachLocations.map(function(location, i) {
-            return new google.maps.Marker({
-                position: location,
-                label: labels[i % labels.length]
-            });
-        }); */
+        /* let markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); */
