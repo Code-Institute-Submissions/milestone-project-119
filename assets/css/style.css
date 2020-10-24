@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Raleway:wght@100;200;300;400;500;600&display=swap');
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #dfe8f1;
 }
 
@@ -9,7 +9,7 @@ header {
     margin: 0;
 }
 
-h1 {
+h1, h2 {
     color: #01A1B1;
 }
 /* .row {
@@ -37,7 +37,7 @@ p {}
 }
 
 .main-nav {
-    font-family: inherit;
+    font-family: 'Lato', sans-serif;
     font-size: 25px;
     font-weight: 400;
     text-transform: uppercase;
@@ -50,7 +50,6 @@ p {}
 
 .nav-item.active a {
     color: #01A1B1;
-    
 }
 
 #menu a:hover {
@@ -111,7 +110,7 @@ p {}
 
 .page-head {
     text-decoration: underline;
-    font-family: inherit;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
     margin-top: 30px;
@@ -119,7 +118,7 @@ p {}
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
     letter-spacing: 1px;
 }
 
@@ -195,6 +194,7 @@ p {
 }
 
 .exp-btns {
+    font-family: 'Lato', sans-serif;
     background-color: #01A1B1;
     border: 1px solid #000;
     color: #fff;
@@ -215,8 +215,40 @@ p {
 #map {
     height: 600px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
+/* ---------------------------------------------- Experience Page - Javascript content */
+
+.info-head {
+    color: #01A1B1;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.info-address {
+    color: #000;
+    font-weight: 400;
+}
+
+.info-content {
+    font-size: 14px;
+}
+
+.phone-num {
+    color: #01A1B1;
+    margin-left: 3px;
+    font-weight: 400;
+}
+
+.beach-info-list {
+    margin-left: 8px;
+    color: #01A1B1;
+}
+
+.info-website {
+    margin-left: 3px;
+}
 /* .choice-cards {
     margin-top: 60px;
 } */
@@ -282,7 +314,7 @@ p {
 }
 
 .form-style {
-    font-family: inherit;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     padding: 10px;
     width: 100%;
@@ -313,12 +345,12 @@ p {
 }
 
 .modal-head {
-    font-family: inherit;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 
 .modal-content {
-    font-family: 'Raleway', sans-serif;
+    font-family: inherit;
     font-weight: 300;
 }
 /* ---------------------------------------------- Footer */
@@ -326,7 +358,7 @@ p {
 .footer {
     text-align: center;
     background-color: #F8E5D0;
-    font-family: inherit;
+    font-family: 'Lato', sans-serif;
     /* font-size: 25px; */
     font-weight: 400;
     text-transform: uppercase;
