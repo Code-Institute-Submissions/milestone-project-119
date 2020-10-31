@@ -200,6 +200,7 @@ p {
     color: #fff;
     height: 40px;
     width: 180px;
+    margin-bottom: 3px;
 }
 
 .exp-btns:hover {
@@ -218,7 +219,7 @@ p {
     margin-bottom: 40px;
 }
 
-/* ---------------------------------------------- Experience Page - Javascript content */
+/* ---------------------------------------------- Experience Page - info window content */
 
 .info-head {
     color: #01A1B1;
@@ -249,56 +250,52 @@ p {
 .info-website {
     margin-left: 3px;
 }
-/* .choice-cards {
-    margin-top: 60px;
-} */
 
-/* .card-image {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 70%;
-    margin-bottom: 75px;
-    border: 1px black solid;
-    filter: brightness(80%);
-    /* opacity: 0.8; 
-} */
+/* ---------------------------------------------- Experience Page - Top 3 recommendation cards */
 
-/* .centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+.reco-cards {
+    width: 90%;
+}
 
-/* .image-text {
-    font-size: 2rem;
-    font-weight: 400;
-    color: #fff;
-    text-shadow: 3px 3px 3px #000;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-} */
+.card-head {
+    text-decoration: underline;
+    color: #01A1B1;
+    font-weight: 500;
+}
 
-/* .image-text:hover {
-    color: #fff;
-    text-shadow: 3px 3px 3px#01A1B1;
-} */
+.card-content {
+    font-size: 14px;
+}
 
+#beach-recos {
+    display: none;
+    margin-bottom: 40px;
+}
 
+#activity-recos {
+    display: none;
+    margin-bottom: 40px;
+}
 
-/*.img-text {
-    position: absolute;
-    color: #fff;
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px 1px #000;
-} */
-/* .img-choice {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
+#restaurant-recos {
+    display: none;
+    margin-bottom: 40px;
+}
+
+#nature-recos {
+    display: none;
+    margin-bottom: 40px;
+}
+
+#hotel-recos {
+    display: none;
+    margin-bottom: 40px;
+}
+
+#art-recos {
+    display: none;
+    margin-bottom: 40px;
+}
 
 /* ---------------------------------------------- Contact Page */
 
@@ -414,6 +411,18 @@ p {
     }
 }
 
+@media only screen and (max-width:1000px) {
+    .reco-cards {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .reco-cards {
+        margin-bottom: 40px;
+    }
+}
+
 @media only screen and (min-width:576px) and (max-width:730px) {
     .image-text {
         font-size: 1.5rem;
@@ -429,6 +438,10 @@ p {
         font-size: 36px;
         bottom: 110px;
         right: 15px;
+    }
+
+    #map {
+        height: 500px;
     }
 }
 
