@@ -754,7 +754,6 @@ if (selectedLocations) {
             topThreeArt();
         });
 
-
         function topThreeBeach() {
             clearRecos();
             document.getElementById("beach-recos").style.display = "block";
