@@ -53,12 +53,12 @@ h1, h2 {
 
 .custom-toggler {
     color: #000;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
-.opaque-navbar.navbar-on-scroll {
+/*.opaque-navbar*/.navbar-on-scroll {
     background-color: #fff;
-    border:0px; 
+    border: 0px; 
     transition: background-color .5s ease 0s;
 }
 
@@ -361,6 +361,12 @@ p {
 @media only screen and (max-width:1000px) {
     .reco-cards {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .navbar-collapse {
+        background: #dfe8f1;
     }
 }
 
