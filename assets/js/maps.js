@@ -1226,13 +1226,14 @@ function initMap(selectedLocations) {
         disableDefaultUI: true,
     });
 
-// Change zoom level on smaller screen sizes
+    // Change zoom level on smaller screen sizes
 
     if (window.screen.width < 768) {
         let myLatlng = {
             lat: 50.4211456,
             lng: -4.9904922
         };
+
         map = new google.maps.Map(document.getElementById("map"), {
             zoom: 8,
             center: myLatlng,
@@ -1240,11 +1241,9 @@ function initMap(selectedLocations) {
         });
     }
 
-
     let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-
-// Iterate through the array of locations and place the markers on the map
+    // Iterate through the array of locations and place the markers on the map
 
     if (selectedLocations) {
         for (let i = 0; i < selectedLocations.length; i++) {
@@ -1254,18 +1253,19 @@ function initMap(selectedLocations) {
                 animation: google.maps.Animation.DROP,
             });
 
-// Create info window
+            // Create info window
 
             const infowindow = new google.maps.InfoWindow({
                 content: selectedLocations[i].content,
             });
 
-// Close previous info window when new info window opened
+            // Close previous info window when new info window opened
 
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();
                 }
+
                 infowindow.open(map, marker);
                 currentInfoWindow = infowindow;
             });
@@ -1344,7 +1344,3 @@ function clearRecos() {
     document.getElementById("hotel-recos").style.display = "none";
     document.getElementById("art-recos").style.display = "none";
 }
-
-
-/* let markerCluster = new MarkerClusterer(map, markers,
-    {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'}); */

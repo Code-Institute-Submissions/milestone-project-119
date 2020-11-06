@@ -1,18 +1,16 @@
-/* ------ Nav bar opacity on scroll -------- */
+// Nav bar opacity on scroll
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 120) /*height in pixels when the navbar becomes non opaque*/ {
-        $('.navbar').addClass('navbar-on-scroll');
+    if ($(this).scrollTop() > 120) /* height in pixels when the navbar becomes non opaque */ {
+        $(".navbar").addClass("navbar-on-scroll");
     } else {
-        $('.navbar').removeClass('navbar-on-scroll');
+        $(".navbar").removeClass("navbar-on-scroll");
     }
 });
 
-/* ------ Navbar opacity when on smaller screens and hamburger icon clicked -------- */
+// Back to top button
 
-/* ------ Back to top button -------- */
-
-//Get the button
+// Get the button
 
 mybutton = document.getElementById("to-top-btn");
 
