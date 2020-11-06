@@ -1,5 +1,5 @@
-# Milestone Project 1 - Discover Cornwall
-View live project <a href="#">here
+# Milestone Project 2 - Experience Cornwall
+View live project <a href="https://gregory4321.github.io/milestone-project-2/">here
 ***
 ## Table of Contents:
 * [What does it do and what does it need to fulfill?](#what-does-it-do-and-what-does-it-need-to-fulfill)
@@ -28,68 +28,84 @@ View live project <a href="#">here
 * [Disclaimer](#disclaimer)
 ***
 
-## ![Discover Cornwall Logo](assets/images/sg_logo.jpg)
+## ![Experience Cornwall Logo](assets/images/logo.png)
 
-### Discover Cornwall Logo
+### Experience Cornwall Logo
 
 ***
 ## **What does it do and what does it need to fulfill?**
-This is my first milestone project where I have designed, created and built a mobile-first responsive website for a gym. My goals with this website are to share the unique perspective on fitness that this gym offers; to persuade prospective members to sign up; and to give existing members an online space to book classes and enforce a sense of community. 
+This is my second milestone project where I have designed, created and built a mobile-first, fully responsive and interactive website for experiencing 
+the county of Cornwall, England. My goals with this website are to share the uniqueness of what Cornwall has to offer, inspiring people to visit 
+and learn about its history of Cornish mining, sea fishing, and culture and heritage. 
 
-I have taken my knowledge learnt from the beginning three modules of the Full Stack Web Developer course, (HTML, CSS Fundamentals, and User Centric Frontend Development Modules) to provide a clear, functioning and responsive website that demonstrates a proficient use of HTML5 and CSS3. The Bootstrap Framework was used along side these programming languages to help give the site a clear strucutre and ensure the site is as responsive as possible for use across various screen sizes, including desktop, tablet and mobile.
+I have taken my knowledge learnt from the first five modules of the Full Stack Web Developer course, (HTML, CSS Fundamentals, User Centric Frontend 
+Development, JavaScript Fundamentals and Interactive Frontend Development Modules) to provide a clear, functioning and responsive website that 
+demonstrates a proficient use of HTML5, CSS3 and JavaScript. The Bootstrap Framework was used along side these programming languages to help give the 
+site a clear strucutre and ensure the site is as responsive as possible for use across various screen sizes, including desktop, tablet and mobile. The 
+jQuery framework was used amoungst my own JavaScript code for easier implementation of some code.
 
 
 ## **User Experience**
-<div style="text-align:center"><img src="assets/images/response.jpg" alt="Soul Gym Logo"></div>
+<div style="text-align:center"><img src="assets/images/response.png" alt="Experience Cornwall Am I Responsive image"></div>
 
 #### User Stories:
-* First-Time Visitor Goals
-    * As a first-time visitor, I want to be able to navigate through the entire site, comfortably and securely.
-    * As a first-time visitor, I want to be able to easily message the gym with any initial queires that I may have.
-    * As a first-time visitor, I want to learn more about the gym's ethos and what is available.
+* User Goals:
+    * As a user, I want to be able to navigate through the entire site, comfortably and securely.
+    * As a user, I want to be able to easily contact the site with any initial queires that I may have, submit questions, and recieve an
+    acknowledgement via email of my message being received, and a due response.
+    * As a user, I want to learn more about the county of Cornwall and its history, and what can be seen and done there, where to eat and where to stay.
+    * As a user, I want to be able follow links from the site to the site I am looking at, ie hotel or activity own's website.
+    * As a user, I want 
     
-
-* Prospective Gym Member
-    * As a prospective gym member, I want to know how much membership costs.
-    * As a prospective gym member, I want to be able to book a tour.
-    * As a prospective gym member, I want to see what classes and facilities the gym offers.
-    * As a prospective gym member, I want to feel comfortable with and informed on the gym's ethos and know that it is right for me.
-    * As a prospective gym member, I want to be able to contact and locate the gym.
-    * As a prospective gym member, I want to be able to sign up to the gym should it meet my needs and wants.
-
- 
-* As a member of Soul Gym
-    * As a member of Soul Gym, I want to be able to login to my account.
-    * As a member of Soul Gym, I want to be able to book a class.
-    * As a member of Soul Gym, I want to be kept up to date on any new facilities and initiatives the gym is working towards.
-    * As a member of Soul Gym, I want to be able to easily access the weekly class timetable, so I can plan my visits.
-    * As a member of Soul Gym, I want to be able to easily submit any questions, feedback or complaints.
+* For the use, the site assists in meeting the user goals by:
+    * Presenting a clean, easy on the eye website
+    * 
+  
 
 [Back to Top](#table-of-contents)
 
 #### Design
 ##### 1. Colour Scheme
 
-I chose soothing, neutral colours to make the website inviting and help visitors feel calm when visiting the site. The muted tones give the page a serene look and feel. This was important to me as my aim was to create an online space that promotes mental as well as physical health and wellbeing. 
+I chose colors that would be soothing and calming on first glance of the website, and not intrusive. The muted tones give the page a serene look
+and feel. This was important to me as my aim was to create an online space that promotes and represents a feeling of what colours can be found
+throughout Cornwall, from the ranges of blue of the ocean, the rolling green countryside, and golden sand beaches.
 
 Colours I used are:
 
-* ECEAEA - Platinum - Primary Colour
-* C4A55F - Light French Beige - Secondary Colour
-* 827081 - Old Lavender - Accent Colour
+* DFE8F1 - Alice Blue - Primary Colour
+* F8E5D0 - Antique White - Secondary Colour
+* 01A1B1 - Viridian Green - Accent Colour
+* 61999E - Cadet Blue - Button Hover Colour
 * 000000 - Black - Text Colour
+* FFFFFF - White - Navbar on Scroll Colour
 
-The primary colour, Platinum (ECEAEA), was used throughout the pages to give the whole site consistency. I used it for the navbar and footer, as well as the background colour for my forms and individual cards on both the 'Classses' and 'About' pages.<br>
-I originally used the secondary colour, Light French Beige (C4A55F), within the symbol in my logo. When I included this in the page, I found it provided a nice contrast with the primary colour. This led me to use it throughout the site for social icons, buttons, table hover and the names of the people in the quotes section.<br>
-I knew I needed another accent colour to make the site more engaging. I went for Old Lavender (827081) which both contrasted with the primary colour and complemented the secondary colour. I used it to implement user feedback. When a user hovers over the social icons and clicks they go from Light French Beige to Old Lavender. To cement the accent colour's presence on the site and make the scheme feel more cohesive, I also used it for block dividers between content and as borders for the forms and cards. I feel this really helped to make the content within the cards stand out.<br>
-I toyed with the idea to have a fourth colour as a main background across the pages, but I found that it made them look too busy and muddied the design. The main goal of this gym is to change the way people see fitness with an emphasis on yoga, meditation and mindfulness. With this in mind, I thought it was better to keep a degree of white space throughout the site. It made it easier on the eye and promoted the minimalist, serene look and feel I was aiming for.<br>
-I opted for Black (00000) as my text colour to make sure all the words clear and easy to read. The only pieces of text I did not implement this colour on were the names of people I quoted on the home page (detailed above) as I felt these would benefit from a bit of contrast.
+The primary colour, Alice Blue (DFE8F1), was used throughout the pages to give the whole site consistency. I used a coloured background after
+receiving feedback from my Milestone 1 Project about having the majority of text on a white background. I found that it gives the page a nicer
+overall feeling.<br>
+I made the navbar transparent, until the user scrolls below a set amount of pixels, where the navbar would turn, White (FFFFFF), showing a clear
+contrast between the navbar and the rest of the page. This allows the user to easily use the navbar for navigation around the site.<br>
+The secondary colour, Antique White (F8E5D0), was used only in the footer to give a sense of the beaches and golden sand. This broke away well
+from the rest of the page, making it clear to the user that they are at the bottom of the page. It also gave a nice contrast to the rest of the
+colours used on the page, complimenting one another.<br>
+Throughout the site, I used Viridian Green (01A1B1) s my accent colour. This colour was pulled from the ocean of the hero image used on my home
+page. I used this colour for all headings, all buttons across the pages, the back to top button, the social links in the footer, and any active
+text, ie the current page the user is on. I then took this colour and made it a slighlty darker shade, Cadet Blue (61999E), to be used when all of
+the buttons were hovered over to give the user clarification when they are able to interact with a button.<br>
+I opted for Black (00000) as my text colour to make sure all the words clear and easy to read. As stated above, the headers and the current active
+page shown on the navbar where the accent colour.
 
 ##### 2. Font
 
-I decided to use two fonts throught my site. I included these fonts by inserting an _import_ link of Google Fonts API into the top of my style.css.<br>
-The font I chose for the body text on the pages was 'Roboto', with a fall back of 'Sans-serif' should the site not load the import correctly. I found the 'Roboto' font was clear and easy to read and fed into the simple, minimal look and feel I was trying to achieve with the site.<br>
-The second font I used was 'Noto Sans', again with the fallback of 'Sans-serif'. I used this for anything I wanted to stand out a little more. This included the navbar, footer, headlines and sub-headings. I wanted a font that complemented the body text without being wildly different from it. This would have made the page too busy and drawn attention away from the beautiful, peace-invoking imagery it was sitting alongside. Simplicity was key and the combination of Roboto and Noto Sans helped me achieve that objective.
+I decided to use two fonts throught my site. I included these fonts by inserting an _import_ link of Google Fonts API into the top of my 
+style.css.<br>
+The font I chose for the body text on the pages was 'Raleway', with a fall back of 'Sans-serif' should the site not load the import correctly. I
+found the 'Raleway' font was clear and easy to read and fed into the simple, minimal look, a feel I was trying to achieve with the site.<br>
+The second font I used was 'Lato', again with the fallback of 'Sans-serif'. I used this for anything I wanted to stand out a little more, as i felt
+it had a more structured, bold like format. This included the navbar, footer, headlines, sub-headings, buttons and forms. I used this font for all
+of the form as I felt that with basic content it didn't need different fonts. Overall, I wanted a font that complemented the body text without
+being wildly different from it. This would have made the page too busy and drawn attention away from the beautiful, peace-invoking imagery it was
+sitting alongside. Simplicity was key and the combination of Raleway and Lato helped me achieve that objective.
 
 ##### 3. Logo
 
@@ -107,13 +123,11 @@ I was going to display the 'About' page in this way, but upon consideration I de
 
 Wireframes for this project were created using Balsamiq. I initially sketched rough ideas down on paper and then further constructed them on the computer using Balsamiq to create a more detailed mockup. The final pages I ended up with on the website did not vary too much from the wireframes I made during the planning stages. Find the links to these wireframes below:
 
-* [Home Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-home.jpg)
+* [Home Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-home.png)
 
-* [Classes Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-class.jpg)
+* [Activities Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-activity.png)
 
-* [About Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-about.jpg)
-
-* [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-contact.jpg)
+* [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-contact.png)
 
 [Back to Top](#table-of-contents)
 
@@ -124,6 +138,8 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
  * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Language used to create the structure of the pages.
 
  * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Language used to add styling across all pages.
+
+  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Language used to create interactivity across the pages.
 
 #### Libraries, Frameworks and Editors
 
@@ -143,6 +159,10 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Pexels](https://www.pexels.com/) - used to find images for use across the site.
 
+* [Pixbay](https://pixabay.com/) - used to find images for use across the site.
+
+* [Google Images](https://google.com) - used to find images for use across the site.
+
 #### Tools
 
 * [Google](https://www.google.co.uk/) - was used for researching various techniques, styles and information.
@@ -151,11 +171,11 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Google Maps](https://www.google.co.uk/maps) - used to embed a map to show the whereabouts of the gym.
 
-* [Balsamiq](https://balsamiq.com/) - used for creating the wireframes in the design stage.
+* [Figma](https://www.figma.com/) - used for creating the wireframes in the design stage.
 
 * [Coolors](https://coolors.co/) - used to find and compare colours that complimented one another.
 
-* [Canva](https://www.canva.com/) - was used to design and create the logo, and also to resize images to specific dimensions.
+* [Canva](https://www.canva.com/) - was used to design and create the logo, create the favicon logo, and also to resize images to specific dimensions.
 
 * [Picresize](https://picresize.com/) - was also used to resize images for less specific wants, such as 25% or 50% smaller.
 
@@ -217,7 +237,7 @@ The project was deployed through Github pages. This was achieved by following th
 * Use the drop-down menu under 'Source' to change from 'none' and select 'master branch'.
 * The page then automatically refreshes and takes the user back to the top of the page.
 * Scroll back down to the 'Github Pages' section. A ribbon notification is now displayed containing the link to the deployed site.
-* The ribbon notification displays this message:  'Your site is published at https://gregory4321.github.io/milestone-project-1/'
+* The ribbon notification displays this message:  'Your site is published at https://gregory4321.github.io/milestone-project-2/'
 * I have provided this link at the top of the README file.
 
 #### Running Project Locally 
@@ -235,7 +255,7 @@ To run your own version of this project, it can be cloned or downloaded from Git
 
 #### Content
 
-All content on the website was written by me, the developer, with inspiration taken from other gym and yoga sites. 
+All content on the website was written by me, the developer, with inspiration taken from other travel and informational sites. 
 
 #### Code
 
@@ -252,6 +272,8 @@ The images used on the website were taken from two different image libraries:
 * [Unsplash](https://unsplash.com/)
 
 * [Pexels](https://www.pexels.com/)
+
+* [Pixbay](https://pixabay.com/) 
 
 These images were then resized to suit the wants of me, the developer, using these two sites:
 
