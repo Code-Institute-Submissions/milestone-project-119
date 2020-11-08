@@ -125,6 +125,10 @@ p {
     margin-right: auto;
 }
 
+.para-text {
+    text-align: justify;
+}
+
 /* ---------------------------------------------- Experience Page */
 
 .hero-img-2 {
