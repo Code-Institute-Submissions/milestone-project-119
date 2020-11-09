@@ -34,15 +34,15 @@ View live project <a href="https://gregory4321.github.io/milestone-project-2/">h
 
 ***
 ## **What does it do and what does it need to fulfill?**
-This is my second milestone project where I have designed, created and built a mobile-first, fully responsive and interactive website for experiencing 
-the county of Cornwall, England. My goals with this website are to share the uniqueness of what Cornwall has to offer, inspiring people to visit 
-and learn about its history of Cornish mining, sea fishing, and culture and heritage. 
+This is my second milestone project where I have designed, created and built a mobile-first, fully responsive and interactive website for 
+experiencing the county of Cornwall, England. My goals with this website are to share the uniqueness of what Cornwall has to offer, inspiring
+people to visit and learn about its history of Cornish mining, sea fishing, and culture and heritage. 
 
 I have taken my knowledge learnt from the first five modules of the Full Stack Web Developer course, (HTML, CSS Fundamentals, User Centric Frontend 
 Development, JavaScript Fundamentals and Interactive Frontend Development Modules) to provide a clear, functioning and responsive website that 
-demonstrates a proficient use of HTML5, CSS3 and JavaScript. The Bootstrap Framework was used along side these programming languages to help give the 
-site a clear strucutre and ensure the site is as responsive as possible for use across various screen sizes, including desktop, tablet and mobile. The 
-jQuery framework was used amoungst my own JavaScript code for easier implementation of some code.
+demonstrates a proficient use of HTML5, CSS3 and JavaScript. The Bootstrap Framework was used along side these programming languages to help give
+the site a clear strucutre and ensure the site is as responsive as possible for use across various screen sizes, including desktop, tablet and
+mobile. The jQuery framework was used amoungst my own JavaScript code for easier implementation of some code.
 
 
 ## **User Experience**
@@ -53,7 +53,8 @@ jQuery framework was used amoungst my own JavaScript code for easier implementat
     * As a user, I want to be able to navigate through the entire site, comfortably and securely.
     * As a user, I want to be able to easily contact the site with any initial queires that I may have, submit questions, and recieve an
     acknowledgement via email of my message being received, and a due response.
-    * As a user, I want to learn more about the county of Cornwall and its history, and what can be seen and done there, where to eat and where to stay.
+    * As a user, I want to learn more about the county of Cornwall and its history, and what can be seen and done there, where to eat and where to
+    stay.
     * As a user, I want to be able follow links from the site to the site I am looking at, ie hotel or activity own's website.
     * As a user, I want 
     
@@ -106,28 +107,40 @@ it had a more structured, bold like format. This included the navbar, footer, he
 of the form as I felt that with basic content it didn't need different fonts. Overall, I wanted a font that complemented the body text without
 being wildly different from it. This would have made the page too busy and drawn attention away from the beautiful, peace-invoking imagery it was
 sitting alongside. Simplicity was key and the combination of Raleway and Lato helped me achieve that objective.
+When it came to font weight, between the two fonts, I varied between 300 and 500 for differnt factors across the pages. 400 took precendent as the
+average font weight, and then card heads were given 500 to stand out clearer and more bold, for the page headings, the info window headings, and
+the modal content looked best with using 300.
 
 ##### 3. Logo
 
-The logo was created using an online design tool called Canva. I created a custom canvas to fit my required dimensions and set the background to the primary colour so it blended with the navbar.
-When it came to designing the logo I wanted a symbol that matched the look and feel of the site. I selectedthe mandala from Canva's selection of free symbols and played with the colours until I found a combination I liked. This is where I found what would become the secondary colour of my entire website.
-I chose the font 'Chakra Petch' for the logo because it felt modern and stood out with its angular edges without being too bold. It suited the site's branding and complemented all my other design choices well. 
+The logo was created using an online design tool called Canva. I created a custom canvas to fit my required dimensions and set the background to
+be transparent as I was using a transparent navbar. When it came to designing the logo I wanted a symbol that represented Cornwall, and decided
+that an engine house is the embodiment of Cornish culture. I selected the engine house from google's selection of free images and played with the
+contrast and saturation to get it black and white so it would stand out clearly with the transparent background, as well as matching the black font
+of the logo "Experience Cornwall". I chose the font 'Lato' for this text to match the font used for headings throughout the site, keeping a clear
+consistency. It suited the site's branding and complemented all my other design choices well. 
 
 ##### 4. Composition
 
-There is a clear structure throughout the site. Each of the main pages was has a hero image at the top to engage the user with text overtop of it. I also implemented content hinting where possible to encourage scrolling and more user interaction. 
-To help me keep the design neat and consistent, I used the 'Rule of Thirds'. This also helps to draw the viewer's eye into the composition, rather than just glancing at the center, so I wanted to make sure I implemented it in my design. You can find evidence of this in the footer, but it's displayed most clearly on the 'Classes' page with the cards and the 'Home' page with the quotes. 
-I was going to display the 'About' page in this way, but upon consideration I decided to place the cards down the centre. Because of the volume of text in these cards, they made the page too cluttered when they were in a row of three. Displaying them crentally down the page kept a good amount of white space. I also think that having to scroll down through the cards made it feel like the story was unfolding which I thought was a nice touch.
+There is a clear structure throughout the site. Each of the main pages has a hero image at the top to engage the user. I also implemented content
+hinting on all the pages to encourage scrolling and more user interaction. 
+To help me keep the design neat and consistent, I had all content displayed central, with good margins for desktop use to avoid anything being cut
+off the screen. I ensured all content is full width for mobile sizes, utilising all of the space available. I found that having to scroll down the
+home page made it feel like the story was unfolding which I thought was a nice touch. The google map on the expereince page has been set to full
+width to keep the map easily readable across all screen sizes. I made use of the 'Rule of Thirds" in the 'Top 3 Recommendations' section to help
+draw the viewer's eye into the composition, rather than just glancing at the center, so I wanted to make sure I implemented it in my design. 
 
 ##### 5. Wireframes
 
-Wireframes for this project were created using Balsamiq. I initially sketched rough ideas down on paper and then further constructed them on the computer using Balsamiq to create a more detailed mockup. The final pages I ended up with on the website did not vary too much from the wireframes I made during the planning stages. Find the links to these wireframes below:
+Wireframes for this project were created using Figma. I initially sketched rough ideas down on paper and then further constructed them on the 
+computer using Figma to create a more detailed mockup. The final pages I ended up with on the website did not vary too much from the wireframes I
+made during the planning stages. Find the links to these wireframes below:
 
-* [Home Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-home.png)
+* [Home Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-home.png)
 
-* [Activities Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-activity.png)
+* [Activities Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-activity.png)
 
-* [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-1/blob/master/assets/images/wire-contact.png)
+* [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-contact.png)
 
 [Back to Top](#table-of-contents)
 
@@ -139,17 +152,23 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
  * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Language used to add styling across all pages.
 
-  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Language used to create interactivity across the pages.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Language used to create interactivity across the pages.
 
 #### Libraries, Frameworks and Editors
 
-* [Bootstrap 4.5.0](https://getbootstrap.com/) - used to creat basic HTML layout and structure and using Bootstrap's CSS Framwework. The resposnsive grid system was utilised well.
+* [Bootstrap 4.5.0](https://getbootstrap.com/) - used to creat basic HTML layout and structure and using Bootstrap's CSS Framwework. The
+resposnsive grid system was utilised well.
 
 * [Google Fonts](https://fonts.google.com/) - was used to import the 'Roboto' and 'Noto Sans' fonts, that were used across all pages.
 
 * [Font Awesome](https://fontawesome.com/) - was used for the social icons and the calender link found in the footer.
 
-* [jQuery](https://jquery.com/) - was used in conjunction with Bootstrap to create the navbar collapse element.
+* [jQuery](https://jquery.com/) - was used in conjunction with Bootstrap to create the navbar collapse element, opacity of the navbar on the scroll
+of the page, and the modal pop up on submission of the contact form.
+
+* [EmailJS](https://www.emailjs.com/) - was used to send an email from JavaScript.
+
+* [Favicon](https://favicon.io/) - was used to generate the favivon image.
 
 * [Git](https://git-scm.com/) - used for version control by making use of the Gitpod terminal to add, commit and push to Github.
 
@@ -179,9 +198,11 @@ Wireframes for this project were created using Balsamiq. I initially sketched ro
 
 * [Picresize](https://picresize.com/) - was also used to resize images for less specific wants, such as 25% or 50% smaller.
 
-* [Am I Responsive](http://ami.responsivedesign.is/) - used for showing the responsiveness of the site across different screen sizes and providing the image at the top of this document.
+* [Am I Responsive](http://ami.responsivedesign.is/) - used for showing the responsiveness of the site across different screen sizes and providing
+the image at the top of this document.
 
-* [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output) - used to format the HTML code in a neater and more organised fashion.
+* [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output) - used to format the HTML code in a neater and more
+organised fashion.
 
 ## **Features**
 
