@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Raleway:wght@100;200;300;400;500;600&display=swap');
-
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #dfe8f1;
@@ -9,9 +8,11 @@ header {
     margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #01A1B1;
 }
+
 
 /* ---------------------------------------------- Navbar */
 
@@ -28,7 +29,7 @@ h1, h2 {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .main-nav {
@@ -56,11 +57,15 @@ h1, h2 {
     font-size: 1.75rem;
 }
 
-/*.opaque-navbar*/.navbar-on-scroll {
+
+/*.opaque-navbar*/
+
+.navbar-on-scroll {
     background-color: #fff;
-    border: 0px; 
+    border: 0px;
     transition: background-color .5s ease 0s;
 }
+
 
 /* ---------------------------------------------- Back To Top Button */
 
@@ -70,12 +75,12 @@ h1, h2 {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    border: none; 
-    outline: none; 
+    border: none;
+    outline: none;
     background-color: #01A1B1;
-    color: #fff; 
+    color: #fff;
     cursor: pointer;
-    padding: 1px 12px; 
+    padding: 1px 12px;
     border-radius: 15px;
     font-size: 50px;
 }
@@ -83,6 +88,7 @@ h1, h2 {
 #to-top-btn:hover {
     background-color: #61999e;
 }
+
 
 /* ---------------------------------------------- Home Page, Experience Page, Contact Page */
 
@@ -100,6 +106,7 @@ p {
     letter-spacing: 1px;
 }
 
+
 /* ---------------------------------------------- Home Page */
 
 .hero-img-1 {
@@ -110,7 +117,7 @@ p {
     align-items: center;
     text-align: center;
     opacity: 0.7;
-} 
+}
 
 .home-images {
     max-width: 100%;
@@ -128,6 +135,7 @@ p {
 .para-text {
     text-align: justify;
 }
+
 
 /* ---------------------------------------------- Experience Page */
 
@@ -175,6 +183,7 @@ p {
     margin-bottom: 40px;
 }
 
+
 /* ---------------------------------------------- Experience Page - info windows */
 
 .info-head {
@@ -206,6 +215,7 @@ p {
 .info-website {
     margin-left: 3px;
 }
+
 
 /* ---------------------------------------------- Experience Page - Top 3 recommendation cards */
 
@@ -252,6 +262,7 @@ p {
     display: none;
     margin-bottom: 40px;
 }
+
 
 /* ---------------------------------------------- Contact Page */
 
@@ -306,6 +317,7 @@ p {
     font-weight: 300;
 }
 
+
 /* ---------------------------------------------- Footer */
 
 .footer {
@@ -344,6 +356,7 @@ p {
     margin-left: 60px;
 }
 
+
 /* ---------------------------------------------- Media Queries */
 
 @media only screen and (max-width:1200px) {
@@ -356,7 +369,6 @@ p {
     .image-text {
         font-size: 1.8rem;
     }
-
     .extra-centered {
         top: 44%;
     }
@@ -384,7 +396,6 @@ p {
     .image-text {
         font-size: 1.5rem;
     }
-
     .extra-centered {
         top: 37%;
     }
@@ -396,7 +407,6 @@ p {
         bottom: 110px;
         right: 15px;
     }
-
     #map {
         height: 500px;
     }
@@ -406,7 +416,6 @@ p {
     .logo {
         width: 75%;
     }
-
     .logo-image {
         width: 100%;
     }
@@ -416,7 +425,6 @@ p {
     .image-text {
         font-size: 1.8rem;
     }
-
     .extra-centered {
         top: 38%;
     }
@@ -426,7 +434,6 @@ p {
     .social-links li a i {
         font-size: 26px;
     }
-
     .footer-icon {
         margin-left: 55px;
     }
@@ -442,7 +449,6 @@ p {
     .image-text {
         font-size: 1.8rem;
     }
-
     .extra-centered {
         top: 37%;
     }
@@ -452,7 +458,6 @@ p {
     .social-links li a i {
         font-size: 26px;
     }
-
     .footer-icon {
         margin-left: 45px;
     }
@@ -468,11 +473,9 @@ p {
     .image-text {
         font-size: 1.5rem;
     }
-
     .centered {
         top: 38%;
     }
-
     .extra-centered {
         top: 36%;
     }
