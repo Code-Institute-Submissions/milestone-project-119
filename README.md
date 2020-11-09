@@ -166,7 +166,7 @@ resposnsive grid system was utilised well.
 * [jQuery](https://jquery.com/) - was used in conjunction with Bootstrap to create the navbar collapse element, opacity of the navbar on the scroll
 of the page, and the modal pop up on submission of the contact form.
 
-* [EmailJS](https://www.emailjs.com/) - was used to send an email from JavaScript.
+* [EmailJS](https://www.emailjs.com/) - was used to send an email from JavaScript to my gmail account.
 
 * [Favicon](https://favicon.io/) - was used to generate the favivon image.
 
@@ -182,17 +182,23 @@ of the page, and the modal pop up on submission of the contact form.
 
 * [Google Images](https://google.com) - used to find images for use across the site.
 
+* [YouTube](https://www.youtube.com/) - used to source and embed a video into the home page.
+
 #### Tools
 
 * [Google](https://www.google.co.uk/) - was used for researching various techniques, styles and information.
 
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 
-* [Google Maps](https://www.google.co.uk/maps) - used to embed a map to show the whereabouts of the gym.
+* [Google Maps](https://www.google.co.uk/maps) - used to grab the coordinates of locations and get details of locations - phone numbers, address and
+websites.
+
+* [Google Developers](https://developers.google.com/maps/documentation/?_ga=2.257569803.1237416838.1604925384-1643581518.1600963572) - used for
+reading and learning the documentation best advised by google to implement Google Maps API.
 
 * [Figma](https://www.figma.com/) - used for creating the wireframes in the design stage.
 
-* [Coolors](https://coolors.co/) - used to find and compare colours that complimented one another.
+* [Coolors](https://coolors.co/) - used to find and compare colours that complimented one another, and retrieve names of colours.
 
 * [Canva](https://www.canva.com/) - was used to design and create the logo, create the favicon logo, and also to resize images to specific dimensions.
 
@@ -204,39 +210,62 @@ the image at the top of this document.
 * [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output) - used to format the HTML code in a neater and more
 organised fashion.
 
+* [Free Online CSS Formatter](https://www.freeformatter.com/css-beautifier.html) - used to format the CSS code in a neater and more organised
+fashion.
+
+* [Free Online JS Formatter](https://www.freeformatter.com/javascript-beautifier.html) - used to format the JS code in a neater and more organised
+fashion.
+
 ## **Features**
 
 #### Existing Features
 
-* Navbar - Featured across all pages, site visitors can use the links on the right to navigate between all pages on the website. These links also collapse down into a hamburger icon at smaller screen sizes. The logo, found on the left, can be clicked on all pages to take users back to the home page.
+* Navbar - Featured across all pages, site visitors can use the links on the left to navigate between all pages on the website. These links also
+collapse down into a hamburger icon at smaller screen sizes. The logo, found on the left, can be clicked on all pages to take users back to the
+home page. The navbar is also fixed, which enables the user to easily navigate betweenthe pages of the website. The navbar starts off as transparent,
+and then becomes white as the user scrolls to ensue it is always clearly visible.
 
-* Footer - Also featured across all pages, the footer is used for imforming the user that they can book a tour and provides a link in the form of an icon to the contact page where said tour can be scheduled. This is found on the left third of the footeer. On the right third of the footer, users will find social icons linking to the coresponding social media pages.
+* Footer - Also featured across all pages, users will find clickable social icons linking to the coresponding social media pages.
 
-* Hero images -  These can be found across the three main pages (Home, Classes and About), and provide a visual reference to the page the user is on. There is also text displayed on top of the image, relating to the page, as well as a call to action button linking to desired pages - e.g.: Register page from the Home and About pages, and Contact page from the Classes page. These interavtive features encourage the user to register with the gym and book a class. There is also a hero image used on the homepage at the bottom to advertise that there will soon be a spa available at the gym. This is to ensure the user that the gym is still an expanding facility, forever moving forward.
+* Hero images -  These can be found across the three main pages (History, Experience and Contact), and provide a visual reference to what the user
+can expect to find and experience in Cornwall.
 
-* Testimonials - The 'Why Choose Us' section was created to showcase what other customers thought of the gym and what it has to offer.
+* Home Page - This page showcases a beginner's guide to Cornwall, teaching and informing the user about the history of Cornwall. It contains
+corresponding images to the story being told, and also contains an embed youtube video that the user can use to learn how to make a Cornish pasty.
 
-* Classes Page - This page showcases what classes are available, informing the user what to expect from each class. It also contains a timetable that the user can use to decide what classes they can take on a particular day and time.
+* Experience Page - This page was created to help the user understand what Cornwall has to offer. It makes use of google maps API, encorporating
+clickable buttons above the map to make the user interact with the map. On the click of each button, markers will drop on the map, and then the
+markers themselves once clicked will open an info window. The info windows contain information on each location, all containing the name and
+address of the placed marker, and other than the beach locations, the info windows showcase a phone number, and contains a clickable link to the
+website of the markers location.<br>
+Also, upon the click of each button, 'Top 3 Recommendations' will appear below the map. These are presented as cards, with images at the head,
+and then brief descriptions and/or encouraging statements followed by clickable buttons to the coresponding websites. I felt this added a personal
+touch and gave the user encouragement when choosing what and where to visit on their trip to Cornwall.  
 
-* About Page - This page was created to help the user understand how the gym came about. The gym promotes mental wellbeing and mindfulness which are incredibly personal facets of fitness. I wanted to appeal to readers by giving the gym a personal touch and providing the reader with an origin story that shows how the gym came about. 
-I felt this added a personal touch and acknowledging the cultural origins of Soul Gym's practice gave the whole brand and platform more integrity.
-I've also included a section which details Soul Gym's mission for the future. This is used to incentivise prospective members to sign up. It also enforces a sense of community for existing users and gives them a reason to revisit the site and check on the gym's projects progress 
+* Contact Page - This page provides a form users can fill out to contact the site. They can use this for general enquiries. Once the user submits
+the form, they will be presented with a modal pop up thanking them for their message, and informing them to check their email account, and to also
+be aware a response will be with them shortly. This provides the user with feedback that the registration has gone through successfully. It is
+important to provide feedback to the user so they feel their actions have been validated.<br>
+I used the worked 'Dreckly', which is Cornish slang for something will be done 'Directly'. I did include in brackets next to the word 'Dreckly'
+that this means "Directly', so the user does not feel confused about the terminology.
 
-* Contact Page - This page provides a form users can fill out to contact the gym. They can use this to book classes, schedul a tour and submit any other general enquiries. The user can also find the contact details of the gym below with an interactive map that can be clicked on and viewed on a larger scale on Google Maps in a seperate tab.
+* Back to Top Button - Each page contains a back to top button that will appear when the user scrolls to a set pixel height down the page, giving the
+user easier navigation around the pages and the site. 
 
-* Forms - Forms were used on the 'Login' and 'Register' pages. The user is invited to sign up to the gym by filling out the form or, alternatively, to sign into their existing account.
-
-* 'Join Now' button on Registration Form - Once the user has completed the registration form and clicks 'Join Now', they are redirected to an internal page providing them with feedback that the registration has gone through successfully. It is important to provide feedback to the user so they feel their actions have been validated.
+* Favivon Icon - When the user loads the web pages, a favicon image of the logo for Experience Cornwall appears in the tab at the top next to the
+name of the site.
 
 #### Future Features
 
-* Gallery Page - A seperate page to showcase images of the gym's classes and interactions with their customers. This would give the user a more concrete idea of how the gym operates through using friendly and fun images.
+* On the home/hisory page, create a quiz about that the user can take part in to test their knowledge about Cornwall after reading the
+'Beginner's Guide To Cornwall'.
 
-* Donate Page / Modal - As described in the story on the about page, the gym donates 20% of its earnings to help towards community projects across Asia. A page where members and/or non-members can help contribute towards these initiatives will boost engagement with the gym and help the gym achieve its charitable goals.
+* Display a clickable icon as a link to a foru page where the user can dicsuss Cornwall further with other friendly visitors.
 
-* A more defined view of membership costs by perhaps creating a membership page containg the different packages on offer.
+* Gallery Page - A seperate page to showcase images of Cornwall and visitors experiences from the range of activities, beach walks etc. This would
+give the user a more concrete idea of what to expect from a visit to Cornwall through using friendly and fun images.
 
-* Create a profile builder where the user fills in some questions, and then are show suggested profiles for them personally, highlighting timeslots that would work for them.
+* Include more markers and information to give the user an even more extensive view of what Cornwall has to offer.
 
 [Back to Top](#table-of-contents)
 
@@ -280,21 +309,30 @@ All content on the website was written by me, the developer, with inspiration ta
 
 #### Code
 
-* The code throughout the project used [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) as its base to create a responsive site, utilising the Bootstrap grid system.
+* The code throughout the project used [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) as its base to create a
+responsive site, utilising the Bootstrap grid system.
 
-* Inspiration on how to place and style the hero images was taken from Stack Overflow posts.
+* Inspiration on how to place and style the hero images as well as the cards used in the top 3 recommendations was taken from my previous
+Milestone 1 Project.
+
+* Tutor support helped me within the maps.js file to get started with my markers and understand how best to implement my code. Curve balled to the
+answer was a used term. 
+
+* 
 
 * All other code was written by me, the developer.
 
 #### Media
 
-The images used on the website were taken from two different image libraries:
+The images used on the website were taken from various different image libraries:
 
 * [Unsplash](https://unsplash.com/)
 
 * [Pexels](https://www.pexels.com/)
 
-* [Pixbay](https://pixabay.com/) 
+* [Pixbay](https://pixabay.com/)
+
+* [Google Images](https://google.com)
 
 These images were then resized to suit the wants of me, the developer, using these two sites:
 
@@ -308,11 +346,11 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 #### Pages used for inspiration
 
-* [More Yoga](https://www.moreyoga.co.uk/)
+* [Visit Cornwall](https://www.visitcornwall.com/)
 
-* [Gym Box](https://www.gymbox.com/)
+* [Condé Nast Traveller](https://www.cntraveller.com/gallery/cornwall-beaches)
 
-* [Hot House Yoga](https://hothouseyogi.com/)
+* [Cornwall Guide](https://www.cornwalls.co.uk/)
 
 #### Pages used for information
 
@@ -334,13 +372,16 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+* [Tripadvisor](https://www.tripadvisor.co.uk/)
+
+* [National Trust](https://www.nationaltrust.org.uk/)
+
 #### Special thanks
 
 * Seun Owonikoko @seun_mentor, my mentor, for the support and guidance she gave thoughout the build of this project.
 
-* Tutor Support at Code Institute for accepting my request for more time and giving me the initial push that really got me going. Xavier from tutor support, your advice and guidance helped me more than I think you know. 
-
-* Anthony 0'Brien from the Slack Community for supporting me along the way by answering my stupid-questions and giving me guidance on solving any problems I had with the forms and the 'Submit' button.
+* Tutor Support at Code Institute for accepting my request for more time and giving me the initial push that really got me going. 
+All of the tutors that helped me from tutor support, your advice and guidance helped me more than I think you know. 
 
 * Code Institute for the informative lessons and teachings they provided.
 
@@ -348,4 +389,5 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 ## Disclaimer
 
-This project was created for educational use only. It has been part of studying at the Code Institute as part of their Full Stack Web Developer Course.
+This project was created for educational use only. It has been part of studying at the Code Institute as part of their Full Stack Web Developer
+Course.
