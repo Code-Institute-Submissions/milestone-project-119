@@ -12,7 +12,7 @@
     * [Further Testing](#further-testing)
 ***
 
-Testing this site was conducted using various methods to identify any bugs throughout the site. I did not use any automatic testing such as Jasmine
+Testing this site was conducted using various methods to identify any bugs throughout the site. I did not use automatic testing such as Jasmine
 as I did not feel confident in having enough knowledge to execute the testing in this area. I did use however automatic testing in the form of W3C
 Validators and JSHint.
 
@@ -65,57 +65,51 @@ Google Chrome DevTools was used for rigorous testing of the site. It was used fo
 
 ### User Stories from User Experience (UX) Section
 
-* First Time Visitor Goals:
-    * As a first visitor, I want to be able to navigate through the entire site, comfortably and securely.
-        * When the site is first loaded, a navbar is presented clearly and is easily readable. Users are made to feel comfortable with the simplicity of the site. 
-        * A hero image underneath contains overlaying text of a welcoming and informative manner. There is also a call to action button to join the gym now. 
+* User Goals
+    * As a user, I want to be able to navigate through the entire site, comfortably and securely.
+        * When the site is first loaded, a navbar is presented clearly and is easily readable. Users are made to feel comfortable with the
+        simplicity of the site.
+        * A hero image gives the user an insight of waht to expect to see in Cornwall.
         * Content hinting gives incentive to scroll down.
-        * The user is also invited through the navbar to click between pages. The navbar remains present on all pages, so the security of knowing you can go anywhere at anytime is there.
-
-    * As a first-time visitor, I want to be able to easily message the gym with any initial queires that I may have.
+        * The user is also invited through the navbar to click between pages. The navbar remains present on all pages, so the security of knowing
+        you can go anywhere at anytime is there.
+    * As a user, I want to be able to easily contact the site with any initial queires that I may have, submit questions, and recieve an
+        acknowledgement of my message being received, and a due response.
         * At first sight of the home page, a navbar clearly indicates the option to 'Contact'.
-        * Upon clicking 'Contact', the user is presented with a minimal form to keep the process clear and simple.
+        * Upon clicking 'Contact', the user is presented with a hero image, and again content hinting to encourage them to scroll. Upon scrolling,
+        the user will see a minimal form to keep the process clear and simple.
         * The form encourages the user with a heading and asks for their name, email and message, follwed by a clear 'Submit' button.
-
-    * As a first-time visitor, I want to learn more about the gym and what is available.
-        * After arriving at the easy-to-read home page, the navbar presents two clear options: 'Classes' and 'About'. Content hinting is also found on the home page where the user can scroll down, read testimonials, and reveals an image displaying the text 'Coming Soon'.
-        * Upon navigating to other pages, the user can read - alongside an image - what classes are available and what to expect. They can also read (in a vertical manner presented in cards) a flowing story of the origins of Soul Gym and its mission for the future.
-
-* Prospective Gym Member:
-    * As a prospective gym member, I want to know how much membership costs.
-        * When the user first loads the site, overlaying the eye-catching hero image, text clearly displays the cost of a membership at £30 per month.
-    * As a prospective gym member, I want to be able to book a tour.
-        * At the bottom of each page, in the footer, a user can clearly read 'Want to see more? Book a tour here' with a calender icon that is clickable.
-        * Using this link directs the user to the contact page where they can fill out the form and enquire about booking a tour. They are also reminded that they can book a tour in the heading for the contact form.
-        * The user is expected to fill out this basic form to request a tour.
-    * As a prospective gym member, I want to see what classes and facilities the gym offers.
-        * The user from the home page is invited to scroll down the page, which reveals an image informing them that a spa is coming soon.
-        * Having navigated to the 'Classes' page using the clear navbar, the user can see what classes are available and what they all offer.
-    * As a prospective gym member, I want to feel comfortable and informed that this gym is right for me.
-        * The entire site is created to provide a welcoming and calming feeling. The user can navigate to the 'About' page, where they can read the inspiring story of the owner's journey to starting Soul Gym.
-    * As a prospective gym member, I want to be able to contact and locate the gym.
-        * As written above, once the user has used the navigation to the 'Contact' page, a form is presented to contact the gym. Content hinting is also used here to have the user scroll to reveal the gym's contact details, along with an interactive map.
-    * As a prospective gym member, I want to be able to sign up to the gym.
-        * Using the clear and tidy navbar, the user can follow it to the 'Register' page, where a form is offered to be filled out.
-        * Users must create a username, provide an email address, and create a password. They will also have to confirm this password for added security.
-        * The user cannot submit the registration form until it is filled out correctly.
-        * The user is then redirected to a 'Thank You' page and a button to return them to the 'Home' page. The navbar is also still of use on this page.
-
-* As a member of Soul Gym:
-    * As a member of Soul Gym, I want to be able to login to my account with the gym.
-        * The user is clearly invited through the use of the navbar to head over to the 'Login' page.
-        * Here, a basic form is presented asking for a username/email address and password.
-    * As a member of Soul Gym, I want to be able to book a class.
-        * Once the user knows what class they would like to book, they have two options which will lead to the same outcome. 
-        * At the top of the 'classes' page, the user can clearly see a call to action button reading 'Book Now'.
-        The navigation bar can also be used to access the contact page. The user then has to fill out the form simply stating name email and message, i.e. what class and what time slot they'd like to book. 
-    * As a member of Soul Gym, I want to be kept up to date on any new facilities and initiatives the gym is working towards.
-        * When following the invitation to scroll down the 'Home' page, a large image presents information that a spa is coming soon. This section will be used to display any new information of up and coming events.
-    * As a member of Soul Gym, I want to be able to easily access a weekly class timetable, so I can plan my visits.
-        * The user can use the navbar to access the 'Classes' page from any other page. Content hinting is used to provoke the user to scroll down. Once they do they are presented with the timetable of classes.
-    * As a member of Soul Gym, I want to be able to submit any questions, feedback or complaints.
-        * The navbar clearly presents the 'Contact' page. A form is first seen after the heading of 'Got a question'. The user can use this form to submit a query, complaint or feedbak they like.
-
+        * The user cannot submit the contact form until it is filled out correctly, and all fields are filled in.
+        * Once the user has clicked the submit button, a modal pop up is presented with acknowledgement of success with the submission of the form.
+    * As a user, I want to learn more about the county of Cornwall and its history, and what can be seen and done there, where to eat and where to
+        stay.
+        * After arriving at the easy-to-read home page, the navbar presents two other clear options: 'Experience' and 'Contact'.
+        * Content hinting is found on the home page where the user can scroll down, and discover an inspiring story of Cornwalls history, images
+        relating to the story, and a YouTube video on how to make a Traditional Cornish pasty.
+        * Upon navigating to the 'Experience' page, the user is inviteds to interact with a map, where they can click on buttons, dropping markers
+        onto the map, and then click the dropped markers to recveal an info window of information, containing the name and address of the location,
+        phone numbers and a clickable link to the corresponding website.
+        * Between the 'History' and 'Experience' pages, the user can learn all they need to about Cornwall, and what they can expect to find and do.
+    * As a user, I want to be able follow links from the site to the site I am looking at, ie hotel or activity own's website.
+        * As stated above, once the user has interacted with the map found on the 'Experience' page, and clicked on the dropped markers, an info
+        window is opened, revealing information about the current marker. In each info window, a clickable link to the markers locations website
+        is presented, taking the user to the corresponding website.
+        * The beach locations info windows are the only info windows that do not contain a website. This is due to not all beaches have a website.
+        * Upon clicking the buttons that interact with the map and drop the markers on the map, three cards are presented to the user below the map,
+        with a heading 'Top 3 Recommendations'. These cards provide an image, a short sentence, and then a button that will redirect the user to the
+        corresponding website.
+    * As a user, I want to watch content on a Traditional Cornish pasty, perhaps even following along to the video to make their own.
+        * From the home page, once the user has scrolled through the story, they are presented with an embedded YouTube video. This video
+        demonstrates the method and what is needed to make a Traditional Cornish pasty. The user can enlarge the video for easier viewing,
+        enabling a clearer image to follow along with.
+    * As a user, I want to feel comfortable and informed about visiting Cornwall.
+        * The entire site is created to provide a welcoming and calming feeling. 
+        * After learning about the history of Cornwall, and watching the video on making a Traditional Cornish pasty, the user can navigate to the
+        'Experience' page where they can find all the information they want using the interactive map, as stated above. They can also enquire
+        further using the form  on the 'Contact' page.
+    * As a user, I want to be able to follow links to social media sites.
+        * In the footer of each page, the user will find clickable social media icons that once clicked will direct them to the respective platform,
+        opened in a new tab.
 
 [Back to Top](#table-of-contents)
 
@@ -142,3 +136,7 @@ navigation, and the site's uncluttered design.
 The website was tested on Google Chrome, Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers. It was viewed on a range of
 different devices, such as desktop, laptops, iPhone 5S, iPhone 8 plus, iPhone 12 Pro, iPhoneX, iPad 2019, and Samsung Galaxy. Extensive testing
 was carried out to make sure the links were working correctly, and that the images are loading correctly.
+
+talk about free formatter
+
+clearing form
