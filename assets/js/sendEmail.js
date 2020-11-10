@@ -15,7 +15,7 @@ function sendMail(contactForm) {
             }
         );
     return false;
-};
+}
 
 // Modal pop up when form submitted
 

@@ -1271,32 +1271,32 @@ function initMap(selectedLocations) {
             });
 
             var currentInfoWindow = null;
-        };
-    };
-};
+        }
+    }
+}
 
 // Event listeners for button options to drop markers and call functions to display top 3
 
 document.getElementById("beaches").addEventListener("click", () => {
     initMap(beachLocations);
     topThreeBeach();
-})
+});
 document.getElementById("activities").addEventListener("click", () => {
     initMap(activityLocations);
     topThreeActivities();
-})
+});
 document.getElementById("restaurants").addEventListener("click", () => {
     initMap(restaurantLocations);
     topThreeRestaurant();
-})
+});
 document.getElementById("nature").addEventListener("click", () => {
     initMap(natureLocations);
     topThreeNature();
-})
+});
 document.getElementById("hotels").addEventListener("click", () => {
     initMap(hotelLocations);
     topThreeHotel();
-})
+});
 document.getElementById("arts").addEventListener("click", () => {
     initMap(artsLocations);
     topThreeArt();
@@ -1307,32 +1307,32 @@ document.getElementById("arts").addEventListener("click", () => {
 function topThreeBeach() {
     clearRecos();
     document.getElementById("beach-recos").style.display = "block";
-};
+}
 
 function topThreeActivities() {
     clearRecos();
     document.getElementById("activity-recos").style.display = "block";
-};
+}
 
 function topThreeRestaurant() {
     clearRecos();
     document.getElementById("restaurant-recos").style.display = "block";
-};
+}
 
 function topThreeNature() {
     clearRecos();
     document.getElementById("nature-recos").style.display = "block";
-};
+}
 
 function topThreeHotel() {
     clearRecos();
     document.getElementById("hotel-recos").style.display = "block";
-};
+}
 
 function topThreeArt() {
     clearRecos();
     document.getElementById("art-recos").style.display = "block";
-};
+}
 
 // Function to clear previous display of top 3 recommendations
 
