@@ -36,9 +36,9 @@ View live project <a href="https://gregory4321.github.io/milestone-project-2/">h
 ## **What does it do and what does it need to fulfill?**
 This is my second milestone project where I have designed, created and built a mobile-first, fully responsive and interactive website for 
 experiencing the county of Cornwall, England. My goals with this website are to share the uniqueness of what Cornwall has to offer, inspiring
-people to visit and learn about its history of Cornish mining, sea fishing, and culture and heritage. 
+people to visit and learn about its history of Cornish mining, sea fishing, culture and heritage. 
 
-I have taken my knowledge learnt from the first five modules of the Full Stack Web Developer course, (HTML, CSS Fundamentals, User Centric Frontend 
+I have taken my knowledge learned from the first five modules of the Full Stack Web Developer course, (HTML, CSS Fundamentals, User Centric Frontend 
 Development, JavaScript Fundamentals and Interactive Frontend Development Modules) to provide a clear, functioning and responsive website that 
 demonstrates a proficient use of HTML5, CSS3 and JavaScript. The Bootstrap Framework was used along side these programming languages to help give
 the site a clear strucutre and ensure the site is as responsive as possible for use across various screen sizes, including desktop, tablet and
@@ -49,18 +49,34 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 <div style="text-align:center"><img src="assets/images/response.png" alt="Experience Cornwall Am I Responsive image"></div>
 
 #### User Stories:
+
 * User Goals:
     * As a user, I want to be able to navigate through the entire site, comfortably and securely.
     * As a user, I want to be able to easily contact the site with any initial queires that I may have, submit questions, and recieve an
-    acknowledgement via email of my message being received, and a due response.
-    * As a user, I want to learn more about the county of Cornwall and its history, and what can be seen and done there, where to eat and where to
-    stay.
-    * As a user, I want to be able follow links from the site to the site I am looking at, ie hotel or activity own's website.
-    * As a user, I want 
+    acknowledgement of my message being received, and a due response.
+    * As a user, I want to learn more about the county of Cornwall and its history, and what can be seen and done there. This includes information
+    such as where to eat and where to stay.
+    * As a user, I want to be able to follow links from 'Experience Cornwall' to the website of interest (i.e. hotel or activity own's website).
+    * As a user, I want to learn how to make a traditional Cornish pasty and be given clear guidance on how make my own should I wish to do so.
+    * As a user, I want to feel comfortable and informed about visiting Cornwall.
+    * As a user, I want to be able to access the site's social media accounts in order to learn more.
     
-* For the use, the site assists in meeting the user goals by:
-    * Presenting a clean, easy on the eye website
-    * 
+* For the user, the site assists in meeting the user goals by:
+    * Presenting a clean website that's easy-on-the-eye, providing smooth navigation with the use of a fixed navbar that changes to a solid
+    opacity as the user scrolls. This enables them to click between the pages at all times. The user can also click on the logo from
+    any page to take them back to the home page.
+    * Providing a clean, basic form that doesn't overwhelm or confuse the user which they can fill out to submit any questions they may have.
+    Upon submission the user gets a modal pop up providing them with feedback that their query has been submitted successfully, and an invitation
+    to check their entered email for confirmation.
+    * Tells a story of the hisory of Cornwall upon the initial loading of the site. The experience page showcases a Google Map with clickable buttons
+    and drops markers on the map. The user can then click the markers and learn more about what Cornwall has to offer.
+    * Once clicking on the buttons available, the user can click through the markers that pop up. Once a marker is selected, the user can click on
+    a link to the corresponding website. The beach locations are the only set of locations that do not contain a clickable website as not all
+    beaches have their own website.
+    * Also upon clicking the buttons linked to the map, three cards are presented below the map as 'Top 3 Recommendations'. These cards contain an
+    image, a short sentence and a button inviting the user to find out more, which will direct the user to the coresponding website.
+    * An embedded YouTube video shows, informs and teaches the user how to make a Traditional Cornish pasty.
+    * The footer contains all the social media links the user will need to use for follwing and learning more about this site.
   
 
 [Back to Top](#table-of-contents)
@@ -70,7 +86,7 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 
 I chose colors that would be soothing and calming on first glance of the website, and not intrusive. The muted tones give the page a serene look
 and feel. This was important to me as my aim was to create an online space that promotes and represents a feeling of what colours can be found
-throughout Cornwall, from the ranges of blue of the ocean, the rolling green countryside, and golden sand beaches.
+throughout Cornwall, from the shades of blue in the ocean to the rolling greens of the countryside, and golds of soft sand beaches.
 
 Colours I used are:
 
@@ -83,16 +99,17 @@ Colours I used are:
 
 The primary colour, Alice Blue (DFE8F1), was used throughout the pages to give the whole site consistency. I used a coloured background after
 receiving feedback from my Milestone 1 Project about having the majority of text on a white background. I found that it gives the page a nicer
-overall feeling.<br>
-I made the navbar transparent, until the user scrolls below a set amount of pixels, where the navbar would turn, White (FFFFFF), showing a clear
-contrast between the navbar and the rest of the page. This allows the user to easily use the navbar for navigation around the site.<br>
+overall feeling and makes the text less harsh on the eye and therefoere easier to read.<br>
+I made the navbar transparent until the user scrolls below a set amount of pixels. At this point the navbar turns White (FFFFFF) showing a clear
+contrast between the navbar and the rest of the page and ensures the text of the navbar isn't marred by any background images. This allows the user
+to easily read and use the navbar for navigation around the site.<br>
 The secondary colour, Antique White (F8E5D0), was used only in the footer to give a sense of the beaches and golden sand. This broke away well
-from the rest of the page, making it clear to the user that they are at the bottom of the page. It also gave a nice contrast to the rest of the
-colours used on the page, complimenting one another.<br>
-Throughout the site, I used Viridian Green (01A1B1) s my accent colour. This colour was pulled from the ocean of the hero image used on my home
-page. I used this colour for all headings, all buttons across the pages, the back to top button, the social links in the footer, and any active
-text, ie the current page the user is on. I then took this colour and made it a slighlty darker shade, Cadet Blue (61999E), to be used when all of
-the buttons were hovered over to give the user clarification when they are able to interact with a button.<br>
+from the rest of the page, making it clear to the user that they are at the bottom of the page. It also worked well with the rest of the
+colours used on the page, complimenting them and feeding into the beachy feel I wanted to create.<br>
+Throughout the site, I used Viridian Green (01A1B1) as my accent colour. This colour was pulled from the ocean of the hero image used on my home
+page. I used this colour for all headings, all buttons across the pages, the back-to-top button, the social links in the footer, and any active
+text, i.e. the current page the user is on. I then took this colour and made it a slighlty darker shade, Cadet Blue (61999E), to be used when all of
+the buttons were hovered over to provide the user and let them know they are able to interact with a button.<br>
 I opted for Black (00000) as my text colour to make sure all the words clear and easy to read. As stated above, the headers and the current active
 page shown on the navbar where the accent colour.
 
@@ -101,34 +118,34 @@ page shown on the navbar where the accent colour.
 I decided to use two fonts throught my site. I included these fonts by inserting an _import_ link of Google Fonts API into the top of my 
 style.css.<br>
 The font I chose for the body text on the pages was 'Raleway', with a fall back of 'Sans-serif' should the site not load the import correctly. I
-found the 'Raleway' font was clear and easy to read and fed into the simple, minimal look, a feel I was trying to achieve with the site.<br>
-The second font I used was 'Lato', again with the fallback of 'Sans-serif'. I used this for anything I wanted to stand out a little more, as i felt
-it had a more structured, bold like format. This included the navbar, footer, headlines, sub-headings, buttons and forms. I used this font for all
+found the 'Raleway' font was clear, easy to read and fed into the simple, minimal look and feel I was trying to achieve with the site.<br>
+The second font I used was 'Lato', again with the fallback of 'Sans-serif'. I used this for anything I wanted to stand out a little more as I felt
+it had a more structured, bold format. This included the navbar, footer, headlines, sub-headings, buttons and forms. I used this font for all
 of the form as I felt that with basic content it didn't need different fonts. Overall, I wanted a font that complemented the body text without
 being wildly different from it. This would have made the page too busy and drawn attention away from the beautiful, peace-invoking imagery it was
-sitting alongside. Simplicity was key and the combination of Raleway and Lato helped me achieve that objective.
+sitting alongside. Clarity was key and the combination of Raleway and Lato helped me achieve that objective.
 When it came to font weight, between the two fonts, I varied between 300 and 500 for differnt factors across the pages. 400 took precendent as the
-average font weight, and then card heads were given 500 to stand out clearer and more bold, for the page headings, the info window headings, and
-the modal content looked best with using 300.
+average font weight, and then card heads were given 500 to stand out more. Whereas, the page headings, info window headings, and modal content
+looked best with using 300.
 
 ##### 3. Logo
 
 The logo was created using an online design tool called Canva. I created a custom canvas to fit my required dimensions and set the background to
 be transparent as I was using a transparent navbar. When it came to designing the logo I wanted a symbol that represented Cornwall, and decided
-that an engine house is the embodiment of Cornish culture. I selected the engine house from google's selection of free images and played with the
-contrast and saturation to get it black and white so it would stand out clearly with the transparent background, as well as matching the black font
-of the logo "Experience Cornwall". I chose the font 'Lato' for this text to match the font used for headings throughout the site, keeping a clear
-consistency. It suited the site's branding and complemented all my other design choices well. 
+that an engine house is the embodiment of Cornish culture. I selected the engine house from Google's selection of free images and played with the
+contrast and saturation to turn it into a silhouette that would stand out clearly against the transparent/white background of the navbar. It also
+matched the black font of the logo "Experience Cornwall". I chose the font 'Lato' for this text to match the font used for headings throughout the
+site, keeping a clear consistency. It suited the site's branding and complemented all my other design choices well. 
 
 ##### 4. Composition
 
 There is a clear structure throughout the site. Each of the main pages has a hero image at the top to engage the user. I also implemented content
 hinting on all the pages to encourage scrolling and more user interaction. 
 To help me keep the design neat and consistent, I had all content displayed central, with good margins for desktop use to avoid anything being cut
-off the screen. I ensured all content is full width for mobile sizes, utilising all of the space available. I found that having to scroll down the
-home page made it feel like the story was unfolding which I thought was a nice touch. The google map on the expereince page has been set to full
+off the screen. I ensured all the content is full width for mobile sizes, utilising all of the space available. I found that having to scroll down
+the home page made it feel like the story was unfolding which I thought was a nice touch. The Google map on the expereince page has been set to full
 width to keep the map easily readable across all screen sizes. I made use of the 'Rule of Thirds" in the 'Top 3 Recommendations' section to help
-draw the viewer's eye into the composition, rather than just glancing at the center, so I wanted to make sure I implemented it in my design. 
+draw the viewer's eye into the composition, rather than just glancing at the center.
 
 ##### 5. Wireframes
 
@@ -156,7 +173,7 @@ made during the planning stages. Find the links to these wireframes below:
 
 #### Libraries, Frameworks and Editors
 
-* [Bootstrap 4.5.0](https://getbootstrap.com/) - used to creat basic HTML layout and structure and using Bootstrap's CSS Framwework. The
+* [Bootstrap 4.5.0](https://getbootstrap.com/) - used to create basic HTML layout and structure and using Bootstrap's CSS Framwework. The
 resposnsive grid system was utilised well.
 
 * [Google Fonts](https://fonts.google.com/) - was used to import the 'Roboto' and 'Noto Sans' fonts, that were used across all pages.
@@ -166,9 +183,9 @@ resposnsive grid system was utilised well.
 * [jQuery](https://jquery.com/) - was used in conjunction with Bootstrap to create the navbar collapse element, opacity of the navbar on the scroll
 of the page, and the modal pop up on submission of the contact form.
 
-* [EmailJS](https://www.emailjs.com/) - was used to send an email from JavaScript to my gmail account.
+* [EmailJS](https://www.emailjs.com/) - was used to send an email from JavaScript to my Gmail account.
 
-* [Favicon](https://favicon.io/) - was used to generate the favivon image.
+* [Favicon.io](https://favicon.io/) - was used to generate the favicon image.
 
 * [Git](https://git-scm.com/) - used for version control by making use of the Gitpod terminal to add, commit and push to Github.
 
@@ -194,7 +211,7 @@ of the page, and the modal pop up on submission of the contact form.
 websites.
 
 * [Google Developers](https://developers.google.com/maps/documentation/?_ga=2.257569803.1237416838.1604925384-1643581518.1600963572) - used for
-reading and learning the documentation best advised by google to implement Google Maps API.
+reading and learning the documentation best advised by Google to implement Google Maps API.
 
 * [Figma](https://www.figma.com/) - used for creating the wireframes in the design stage.
 
@@ -213,65 +230,74 @@ organised fashion.
 * [Free Online CSS Formatter](https://www.freeformatter.com/css-beautifier.html) - used to format the CSS code in a neater and more organised
 fashion.
 
-* [Free Online JS Formatter](https://www.freeformatter.com/javascript-beautifier.html) - used to format the JS code in a neater and more organised
-fashion.
+* [Free Online JS Formatter](https://www.freeformatter.com/javascript-beautifier.html) - used to format the JavaScript code in a neater and more
+organised fashion.
 
 ## **Features**
 
 #### Existing Features
 
-* Navbar - Featured across all pages, site visitors can use the links on the left to navigate between all pages on the website. These links also
+* Navbar - Featured across all pages. Site visitors can use the links on the left to navigate between all pages on the website. These links also
 collapse down into a hamburger icon at smaller screen sizes. The logo, found on the left, can be clicked on all pages to take users back to the
-home page. The navbar is also fixed, which enables the user to easily navigate betweenthe pages of the website. The navbar starts off as transparent,
-and then becomes white as the user scrolls to ensue it is always clearly visible.
+home page. The navbar is also fixed, which enables the user to easily navigate between the pages of the website. The navbar starts off as transparent,
+and then becomes white as the user scrolls to ensure it is always clear and legible.
 
-* Footer - Also featured across all pages, users will find clickable social icons linking to the coresponding social media pages.
+* Footer - Also featured across all pages. Users will find clickable social icons linking to the corresponding social media pages.
 
 * Hero images -  These can be found across the three main pages (History, Experience and Contact), and provide a visual reference to what the user
 can expect to find and experience in Cornwall.
 
 * Home Page - This page showcases a beginner's guide to Cornwall, teaching and informing the user about the history of Cornwall. It contains
-corresponding images to the story being told, and also contains an embed youtube video that the user can use to learn how to make a Cornish pasty.
+corresponding images to the story being told, and an embedded YouTube video that will help the user learn how to make a Cornish pasty.
 
-* Experience Page - This page was created to help the user understand what Cornwall has to offer. It makes use of google maps API, encorporating
+* Experience Page - This page was created to help the user understand what Cornwall has to offer. It makes use of Google Maps API, incorporating
 clickable buttons above the map to make the user interact with the map. On the click of each button, markers will drop on the map, and then the
-markers themselves once clicked will open an info window. The info windows contain information on each location, all containing the name and
-address of the placed marker, and other than the beach locations, the info windows showcase a phone number, and contains a clickable link to the
-website of the markers location.<br>
-Also, upon the click of each button, 'Top 3 Recommendations' will appear below the map. These are presented as cards, with images at the head,
-and then brief descriptions and/or encouraging statements followed by clickable buttons to the coresponding websites. I felt this added a personal
-touch and gave the user encouragement when choosing what and where to visit on their trip to Cornwall.  
+markers themselves once clicked will open an info window. The info windows contain information on each location such as the name and
+address of the placed marker. The info windows also showcase a phone number and a clickable link to a corresponding website (other than the beach
+locations which didn't have websites). I felt the user would be overwhelmed if the map presented them with every single beach, restaurant, hotel
+etc. so I used my own extensove knowledge of Cornwall to help me hand pick the best locations in each category. I felt this added to the user
+expereince because it meant the map would be clearer and provide them with a more streamlined set of recommendations.<br>
+Also, upon clicking each button, 'Top 3 Recommendations' will appear below the map for each category. These are presented as cards, with images at
+the head and then brief descriptions and/or encouraging statements followed by clickable buttons to the corresponding websites. I felt this added
+a personal touch and gave the user encouragement when choosing what and where to visit on their trip to Cornwall.<br>
+I had an issue with the positioning of my markers that I wasn't able to solve. All of the markers' coordinates were pulled from the respective
+locations on Google Maps. However, once they were set and zoomed in on, I noticed that all my markers were positioned slighlty to the left of each
+location. Through talks with tutor support, it concluded that this may be due to some default code written for Google Maps. I did attempt to
+override it using various techniques that I found during my research, but I was ultimately unable todo so. That being said, it does not prove to be
+a major issue for my site as the location coordinates I set match the 'true' positon of the locations' coordinates.
 
 * Contact Page - This page provides a form users can fill out to contact the site. They can use this for general enquiries. Once the user submits
-the form, they will be presented with a modal pop up thanking them for their message, and informing them to check their email account, and to also
-be aware a response will be with them shortly. This provides the user with feedback that the registration has gone through successfully. It is
+the form, they will be presented with a modal pop up thanking them for their message and informing them to check their email account. They're also
+made aware that a response will be with them shortly. This provides the user with feedback that the query has gone through successfully. It is
 important to provide feedback to the user so they feel their actions have been validated.<br>
-I used the worked 'Dreckly', which is Cornish slang for something will be done 'Directly'. I did include in brackets next to the word 'Dreckly'
-that this means "Directly', so the user does not feel confused about the terminology.
+I used the word 'Dreckly', which is a Cornish colloquialism that implies something will be done 'Directly' i.e. 'soon'. I did include in brackets
+next to the word 'Dreckly' that this means 'Directly', so the user does not feel confused about the terminology.
 
-* Back to Top Button - Each page contains a back to top button that will appear when the user scrolls to a set pixel height down the page, giving the
-user easier navigation around the pages and the site. 
+* Back-to-Top Button - Each page contains a back-to-top button that will appear when the user scrolls to a set pixel height down the page, giving
+the user easier navigation around the pages and the site. 
 
-* Favivon Icon - When the user loads the web pages, a favicon image of the logo for Experience Cornwall appears in the tab at the top next to the
+* Favicon Icon - When the user loads the web pages, a favicon image of the logo for Experience Cornwall appears in the tab at the top next to the
 name of the site.
 
 #### Future Features
 
-* On the home/hisory page, create a quiz about that the user can take part in to test their knowledge about Cornwall after reading the
+* On the home/hisory page, I'd like to create a quiz that the user can take part in to test their knowledge about Cornwall after reading the
 'Beginner's Guide To Cornwall'.
 
-* Display a clickable icon as a link to a foru page where the user can dicsuss Cornwall further with other friendly visitors.
+* Display a clickable icon as a link to a forum page where the user can dicsuss Cornwall further with other friendly visitors.
 
-* Gallery Page - A seperate page to showcase images of Cornwall and visitors experiences from the range of activities, beach walks etc. This would
-give the user a more concrete idea of what to expect from a visit to Cornwall through using friendly and fun images.
+* Gallery Page - A seperate page to showcase images of Cornwall and visitors' experiences of the range of activities, beach walks etc. on offer.
+This would give the user a more concrete idea of what to expect from a visit to Cornwall.
 
 * Include more markers and information to give the user an even more extensive view of what Cornwall has to offer.
+
+* On the scroll of the page, the hero image would zoom in.
 
 [Back to Top](#table-of-contents)
 
 ## **Testing**
 
-Testing can be found via this [link](https://github.com/Gregory4321/milestone-project-1/blob/master/testing.md)
+Testing can be found via this [link](https://github.com/Gregory4321/milestone-project-2/blob/master/testing.md)
 
 ## **Deployment**
 
@@ -312,13 +338,19 @@ All content on the website was written by me, the developer, with inspiration ta
 * The code throughout the project used [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) as its base to create a
 responsive site, utilising the Bootstrap grid system.
 
-* Inspiration on how to place and style the hero images as well as the cards used in the top 3 recommendations was taken from my previous
+* Inspiration on how to place and style the hero images, as well as the cards used in the Top 3 Recommendations, was taken from my previous
 Milestone 1 Project.
 
-* Tutor support helped me within the maps.js file to get started with my markers and understand how best to implement my code. Curve balled to the
-answer was a used term. 
+* Tutor support provided me with pointers and curve balls that helped me within the maps.js file to get started with my markers and understand how
+best to implement my code.
 
-* 
+* The code for the EmailJS was a mixture of using the documentation found on the website, following the CI tutorial videos on EmailJS, and my own
+knowledge and practice put into place.
+
+* The navbar-opacity-on-scroll code and the back-to-top button code was found on 'Codepen', and then tailored to my sites needs.
+
+* The YouTube video embedded on the home page was taken from YouTube using the import from the share screen, and the iframe tag inserted. I want to
+highlight that this video is being used for training purposes, and does not infringe copyright or ownership of the video.
 
 * All other code was written by me, the developer.
 
@@ -341,6 +373,13 @@ These images were then resized to suit the wants of me, the developer, using the
 * [Picresize](https://picresize.com/)
 
 The logo image was created and exported to my computer using the site [Canva](https://www.canva.com/)
+
+The favicon image was created and exported to my computer using the site [Canva](https://www.canva.com/), and then uploaded to the site [Favicon.io]
+(https://favicon.io/) to be generated as an ico image, to then be exported back to my computer and then added to my root directory on gitpod.
+
+The embedded video on the home page was imported using the iframe tag taken from online video-sharing platform:
+
+* [YouTube](https://www.youtube.com/)
 
 ## **Acknowledgements**
 
@@ -366,7 +405,7 @@ The logo image was created and exported to my computer using the site [Canva](ht
 
 * [Slack](https://slack.com/intl/en-gb/)
 
-* [YouTube](https://www.youtube.com/watch?v=qmPmwdshCMw)
+* [YouTube](https://www.youtube.com/)
 
 * [Code Pen](https://codepen.io/)
 
@@ -375,6 +414,10 @@ The logo image was created and exported to my computer using the site [Canva](ht
 * [Tripadvisor](https://www.tripadvisor.co.uk/)
 
 * [National Trust](https://www.nationaltrust.org.uk/)
+
+* [MDN web docs](https://developer.mozilla.org/en-US/)
+
+* [Codepen](https://codepen.io/)
 
 #### Special thanks
 
